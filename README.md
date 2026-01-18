@@ -4,7 +4,7 @@ Made using [Slidev](https://github.com/slidevjs/slidev)!
 
 ## WHOAMI
 
-![image](./assets/kamil_photo.png)
+<img src="./assets/kamil_photo.png" alt="Kamil" width="30%"/>
 
 Kamil Senecki is an IT professional with roots in embedded systems testing and a long-standing passion for agile ways of working. Since discovering Scrum early in his career, he has been practicing and promoting agile methodologies and frameworks. His experience spans team coaching, collaboration in agile environments, and translating agile principles into everyday practice. Outside of work, he enjoys learning new things, fantasy books, and board games.
 
