@@ -24,9 +24,6 @@ mdc: true
   <span class="text-sm opacity-80">Kamil Senecki</span>
 </div>
 
-<!--
-Welcome everyone! Today we're going to explore how trust works in teams - not as an abstract concept, but as something concrete and actionable.
--->
 
 ---
 transition: fade-out
@@ -1203,11 +1200,8 @@ class: text-center
 <div class="mt-8 text-xl text-gray-400">
 Trust is hard. Culture is hard. Building teams is hard.
 </div>
-
 </v-click>
-
 <v-click>
-
 <div class="mt-4 text-2xl text-cyan-400 font-bold">
 But it's also the most important thing we do.
 </div>
@@ -1220,25 +1214,78 @@ class: text-center
 background: https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920
 ---
 
-# Thank You
+# Remember!
 
-<div class="text-2xl mt-8">🙏</div>
-
-<v-click>
-
-<div class="mt-12 p-6 bg-black bg-opacity-50 rounded-lg inline-block">
-
-**Kamil Senecki**
-
-Scrum Master @ Pega
-
-<div class="mt-4 text-sm text-gray-400">
+<div class="mt-4 text-2xl text-black-400 font-bold">
 Tooling scales systems — but trust scales teams.
 </div>
 
+
+---
+layout: center
+class: text-center
+---
+
+# Let's Connect! 🔗
+
+<div class="grid grid-cols-2 gap-12 mt-8 items-center">
+
+<div class="text-left">
+
+<v-click>
+<div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg mb-4 flex items-center gap-4">
+  <div class="text-3xl">🌐</div>
+  <div>
+    <div class="text-sm text-black-400">Website</div>
+    <div class="text-xl font-bold text-cyan-400">zwinnapanda.pl</div>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-blue-700 bg-opacity-30 rounded-lg mb-4 flex items-center gap-4">
+  <div class="text-3xl">💼</div>
+  <div>
+    <div class="text-sm text-black-400">LinkedIn</div>
+    <a href="https://www.linkedin.com/in/kamilsenecki/" target="_blank" class="text-xl font-bold text-blue-400 hover:underline">linkedin.com/in/kamilsenecki</a>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg flex items-center gap-4">
+  <div class="text-3xl">📊</div>
+  <div>
+    <div class="text-sm text-black-400">Slides</div>
+    <div class="text-xl font-bold text-green-400">github.com/ksenecki/slides/tree/main/trust_protocol</div>
+  </div>
+</div>
+</v-click>
+
 </div>
 
+<v-click>
+<div class="p-8 bg-white rounded-xl">
+  <div class="text-center mb-4 text-gray-800 font-bold">
+    Scan for Slides
+  </div>
+
+  <div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
+    <img
+      src=".\assets\trust_protocol_qr_code.png"
+      alt="QR code for slides"
+      class="w-full h-full object-contain rounded-md"
+    />
+  </div>
+
+</div>
 </v-click>
+
+</div>
+
+<div class="mt-8 text-gray-400 text-sm">
+Kamil Senecki • ZwinnaPanda.pl
+</div>
 
 ---
 layout: center
@@ -1256,101 +1303,3 @@ Let's discuss!
 </div>
 
 </v-click>
-
----
-layout: default
-class: text-sm
----
-
-# Q&A Prep (Hidden Slide)
-
-<div class="grid grid-cols-2 gap-4">
-
-<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-yellow-400">"What if leadership doesn't support this?"</div>
-  <div class="mt-2">Start with your own team. Model the behavior. Document results. Culture change often happens bottom-up.</div>
-</div>
-
-<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-yellow-400">"How do you build trust remotely?"</div>
-  <div class="mt-2">Same principles. Over-communicate. Use video. Create informal touchpoints. The Personal README is even more important.</div>
-</div>
-
-<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-yellow-400">"What about toxic team members?"</div>
-  <div class="mt-2">Have the direct conversation first. If that fails, involve leadership. Culture is shaped by the worst behavior you tolerate.</div>
-</div>
-
-<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-yellow-400">"How long does it take to build trust?"</div>
-  <div class="mt-2">It varies, I'd say 3 months at least. Remember, you need to build real credibility. And one incident can reset it.</div>
-</div>
-
-<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-yellow-400">"What if I'm the new manager?"</div>
-  <div class="mt-2">Everything applies, but faster. Show vulnerability. Listen before you change things. Win small before you win big.</div>
-</div>
-
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Let's Connect! 🔗
-
-<div class="grid grid-cols-2 gap-12 mt-8 items-center">
-
-<div class="text-left">
-
-<v-click>
-<div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg mb-4 flex items-center gap-4">
-  <div class="text-3xl">🌐</div>
-  <div>
-    <div class="text-sm text-gray-400">Website</div>
-    <div class="text-xl font-bold text-cyan-400">zwinnapanda.pl</div>
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="p-4 bg-blue-700 bg-opacity-30 rounded-lg mb-4 flex items-center gap-4">
-  <div class="text-3xl">💼</div>
-  <div>
-    <div class="text-sm text-gray-400">LinkedIn</div>
-    <a href="https://www.linkedin.com/in/kamilsenecki/" target="_blank" class="text-xl font-bold text-blue-400 hover:underline">linkedin.com/in/kamilsenecki</a>
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg flex items-center gap-4">
-  <div class="text-3xl">📊</div>
-  <div>
-    <div class="text-sm text-gray-400">These Slides</div>
-    <div class="text-xl font-bold text-green-400">[SLIDES_LINK_HERE]</div>
-  </div>
-</div>
-</v-click>
-
-</div>
-
-<v-click>
-<div class="p-8 bg-white rounded-xl">
-  <div class="text-center mb-4 text-gray-800 font-bold">Scan for Slides</div>
-  <div class="w-48 h-48 bg-gray-200 rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
-    <div class="text-center text-gray-500">
-      <div class="text-4xl mb-2">📱</div>
-      <div class="text-sm">QR CODE<br/>PLACEHOLDER</div>
-    </div>
-  </div>
-  <div class="text-center mt-4 text-gray-600 text-sm">[SLIDES_LINK_HERE]</div>
-</div>
-</v-click>
-
-</div>
-
-<div class="mt-8 text-gray-400 text-sm">
-Kamil Senecki • Scrum Master @ Pega
-</div>
