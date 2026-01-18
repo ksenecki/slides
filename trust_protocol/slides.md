@@ -1,637 +1,1356 @@
 ---
-# try also 'default' to start simple
-theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
+theme: seriph
+background: https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920
+title: The Trust Protocol
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply UnoCSS classes to the current slide
+  ## The Trust Protocol
+  Human APIs for High-Performing Teams
+  
+  Building teams where trust isn't just an accident — it's a consciously used protocol.
 class: text-center
-# https://sli.dev/features/drawing
+highlighter: shiki
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-# duration of the presentation
-duration: 35min
 ---
 
-# Welcome to Slidev
+# The Trust Protocol
 
-Presentation slides for developers
+## Human APIs for High-Performing Teams
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
 
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
+<div class="abs-br m-6 flex gap-2">
+  <span class="text-sm opacity-80">Kamil Senecki</span>
 </div>
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+Welcome everyone! Today we're going to explore how trust works in teams - not as an abstract concept, but as something concrete and actionable.
 -->
 
 ---
 transition: fade-out
+layout: center
+class: text-center
 ---
 
-# What is Slidev?
+# Have you ever worked in a TEAM?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+<v-click>
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
+<div class="text-xl mt-8 text-gray-400">
+That implies there was a moment you had to <span class="text-yellow-400 font-bold">join</span> the team.
+</div>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+</v-click>
+
+<v-click>
+
+<div class="text-lg mt-4 text-gray-500">
+New company, new people, maybe a new product...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-lg mt-4 text-gray-500">
+Entering the room, the Slack, the call — everyone is <span class="text-cyan-400">new</span>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-12 text-2xl">
+🤔 No idea what to do and say.
+</div>
+
+</v-click>
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
+Most of us have been there at least once. That uncomfortable feeling of being the new person.
 -->
 
 ---
 transition: slide-up
-level: 2
+layout: quote
 ---
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
+# Today I want to talk about how we get past that.
 
 <v-click>
 
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
+How we go from being **"the new person"** to being a **trusted teammate**.
 
 </v-click>
 
-<div mt-20 v-click>
+<v-click>
 
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
+<div class="mt-8 text-xl">
+And more importantly — how we build teams where <span class="text-green-400 font-bold">trust isn't just an accident, it's a consciously used protocol.</span>
 </div>
 
+</v-click>
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800
+transition: slide-left
 ---
 
-# Motions
+# Who Am I?
 
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+<v-clicks>
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
+- 👋 **Kamil Senecki**
+- 🎯 Scrum Master for GenAI teams at **Pega**
+- 🏢 Pega: Low-code platform for enterprise applications
+- 📅 Joined one year ago
 
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
+</v-clicks>
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
+<v-click>
+
+<div class="mt-6 p-4 bg-blue-500 bg-opacity-20 rounded-lg">
+<strong>Everything was new:</strong>
+
+- Industry
+- Company  
+- Team
+- Product
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
+</v-click>
 
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
+<v-click>
 
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
+<div class="mt-4 text-sm text-gray-400">
+Everything we're going to talk about has been <span class="text-green-400">field tested</span>.
 </div>
 
----
-
-# $\LaTeX$
-
-$\LaTeX$ is supported out-of-box. Powered by [$\KaTeX$](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
+</v-click>
 
 ---
 layout: center
 class: text-center
 ---
 
-# Learn More
+<div class="text-6xl mb-8">🦸</div>
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+# The Captain America Moment
 
-<PoweredBySlidev mt-10 />
+<v-click>
+
+<div class="text-xl mt-4 text-gray-400">
+You know that Marvel scene where Steve Rogers wakes up in the modern world?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 text-cyan-400 font-bold">
+Same skills, completely different context.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-lg mt-8 text-gray-500">
+That was me.
+</div>
+
+</v-click>
+
+---
+transition: fade
+layout: default
+---
+
+# The First Day
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+
+<div>
+
+<v-clicks>
+
+- 🏢 Office tour
+- 👥 Many new faces
+- 📝 Acronyms everywhere
+- 📚 Products to learn
+- 🎓 Trainings
+
+</v-clicks>
+
+</div>
+
+<v-click>
+
+<div class="p-6 bg-orange-500 bg-opacity-20 rounded-lg">
+
+### The Question:
+
+> "Kamil, can you join the team next week and start putting everything in place? **I have high expectations.**"
+
+<div class="text-4xl mt-4">😅</div>
+
+</div>
+
+</v-click>
+
+</div>
+
+---
+layout: section
+transition: slide-up
+---
+
+# What Makes a Team?
+
+---
+layout: two-cols
+---
+
+# GROUP vs TEAM
+
+<v-click>
+
+## A Group:
+- Same Slack channel
+- Same manager
+- Same product
+
+</v-click>
+
+<v-click>
+
+<div class="text-6xl mt-4">👥</div>
+
+**Individual contributors sitting next to each other**
+
+</v-click>
+
+::right::
+
+<v-click>
+
+## A Team:
+
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
+
+- 🎯 **Shared purpose** — not just shared location
+- 🔧 **Collective ownership** — over product AND code
+- 📚 **Learning culture** — supportive, no blame
+
+</div>
+
+<div class="text-6xl mt-4">🤝</div>
+
+</v-click>
+
+---
+layout: center
+class: text-center
+background: https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920
+---
+
+# Google's Project Aristotle
+
+<v-click>
+
+<div class="text-xl mt-8">
+They studied <span class="text-yellow-400 font-bold">hundreds of teams</span> to find what made some successful.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-gray-400">
+
+What was the **#1 factor**?
+
+</div>
+
+</v-click>
+
+<v-clicks>
+
+- ❌ Not technical skill
+- ❌ Not experience  
+- ❌ Not having a star performer
+
+</v-clicks>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="text-8xl mb-8">🛡️</div>
+
+# Psychological Safety
+
+<v-click>
+
+<div class="text-2xl mt-8 max-w-2xl mx-auto">
+The best teams were the ones where people felt <span class="text-green-400 font-bold">safe to take risks</span>, ask questions, and admit mistakes.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-12 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
+<div class="text-xl">That's what we want to build with <span class="text-cyan-400 font-bold text-3xl">TRUST</span></div>
+</div>
+
+</v-click>
+
+---
+layout: section
+transition: slide-up
+---
+
+# Tuckman's Model
+
+<div class="text-gray-400">The Stages Every Team Goes Through</div>
+
+---
+layout: default
+---
+
+# Tuckman's 5 Stages (1965)
+
+<div class="grid grid-cols-5 gap-2 mt-8">
+
+<v-click>
+<div class="p-4 bg-blue-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-3xl mb-2">1️⃣</div>
+  <div class="font-bold">Forming</div>
+  <div class="text-sm text-gray-400 mt-2">"Nice to meet you"</div>
+  <div class="text-xs mt-2">Everyone's polite. No one's being real yet.</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-red-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-3xl mb-2">2️⃣</div>
+  <div class="font-bold">Storming</div>
+  <div class="text-sm text-gray-400 mt-2">"Wait, what?!"</div>
+  <div class="text-xs mt-2">Conflict shows up. Different approaches clash.</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-yellow-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-3xl mb-2">3️⃣</div>
+  <div class="font-bold">Norming</div>
+  <div class="text-sm text-gray-400 mt-2">"Let's figure this out"</div>
+  <div class="text-xs mt-2">Standards emerge. Ways of working settle.</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-green-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-3xl mb-2">4️⃣</div>
+  <div class="font-bold">Performing</div>
+  <div class="text-sm text-gray-400 mt-2">"Flow state"</div>
+  <div class="text-xs mt-2">Actually delivering. High effectiveness.</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-purple-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-3xl mb-2">5️⃣</div>
+  <div class="font-bold">Adjourning</div>
+  <div class="text-sm text-gray-400 mt-2">"Evolution"</div>
+  <div class="text-xs mt-2">Team evolves or ends.</div>
+</div>
+</v-click>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# The Truth Nobody Tells You
+
+<v-click>
+
+<div class="text-4xl mt-8 p-6 bg-red-500 bg-opacity-20 rounded-lg inline-block">
+You will spend <span class="text-red-400 font-bold">most of your time</span> in Storming and Norming.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-xl mt-8 text-gray-400">
+<span class="text-green-400 font-bold">Performing</span> is earned, not guaranteed.
+</div>
+
+</v-click>
+
+---
+layout: center
+---
+
+# The Reset Effect
+
+<v-click>
+
+<div class="text-2xl text-center p-6 bg-orange-500 bg-opacity-20 rounded-lg">
+Every time you add <span class="text-orange-400 font-bold">ONE new person</span> to a team, you partially reset back to <span class="text-blue-400">Forming</span>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-center">
+
+```
+Forming → Storming → Forming → Storming → Forming → Storming...
+```
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl text-gray-500 text-center">
+Me asking: <span class="italic">"When can we stabilize?"</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 p-4 bg-blue-500 bg-opacity-20 rounded-lg">
+<strong>This is why onboarding matters so much.</strong>
+
+It's not just about learning the tools. It's about re-establishing trust with every new configuration of the team.
+</div>
+
+</v-click>
+
+---
+layout: section
+transition: slide-up
+---
+
+# The Trust Deficit
+
+<div class="text-gray-400">Lencioni's Model</div>
+
+---
+layout: center
+class: text-center
+---
+
+# We have just met.
+
+<v-click>
+
+<div class="text-3xl mt-8 p-6 bg-yellow-500 bg-opacity-20 rounded-lg inline-block">
+Would you <span class="text-yellow-400 font-bold">trust me</span> with your team right now?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl text-gray-400">
+If the answer is "not yet" — that's <span class="text-green-400">honest</span>. And that's the point.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-lg">
+Trust isn't automatic. <span class="text-cyan-400 font-bold">It's built.</span>
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# Lencioni's Pyramid of Dysfunctions
+
+<div class="flex justify-center mt-4">
+<div class="w-full max-w-xl">
+
+<v-click>
+<div class="bg-purple-500 bg-opacity-30 p-3 text-center rounded-t-lg mx-32">
+  <div class="font-bold">Inattention to Results</div>
+  <div class="text-xs">Individual egos win over team outcomes</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-blue-500 bg-opacity-30 p-3 text-center mx-24">
+  <div class="font-bold">Avoidance of Accountability</div>
+  <div class="text-xs">No one calls out poor performance</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-green-500 bg-opacity-30 p-3 text-center mx-16">
+  <div class="font-bold">Lack of Commitment</div>
+  <div class="text-xs">People nod in meetings but don't buy in</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-yellow-500 bg-opacity-30 p-3 text-center mx-8">
+  <div class="font-bold">Fear of Conflict</div>
+  <div class="text-xs">Problems don't get discussed, they fester</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-red-500 bg-opacity-40 p-4 text-center rounded-b-lg">
+  <div class="font-bold text-xl">Absence of Trust</div>
+  <div class="text-sm">No one's vulnerable, everyone's guarded</div>
+</div>
+</v-click>
+
+</div>
+</div>
+
+<v-click>
+
+<div class="text-center mt-4 text-gray-400">
+Every level is caused by the one below it. <span class="text-red-400 font-bold">It all starts with trust.</span>
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# The Positive Flip ✨
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+
+<div>
+
+### The Dysfunctions:
+<v-clicks>
+
+- ❌ Absence of Trust
+- ❌ Fear of Conflict
+- ❌ Lack of Commitment
+- ❌ Avoidance of Accountability
+- ❌ Inattention to Results
+
+</v-clicks>
+
+</div>
+
+<div>
+
+### The Solutions:
+<v-clicks>
+
+- ✅ Build trust → through **vulnerability**
+- ✅ Master conflict → through **honest debate**
+- ✅ Achieve commitment → through **clarity**
+- ✅ Embrace accountability → through **peer pressure** (the good kind)
+- ✅ Focus on results → through **collective ownership**
+
+</v-clicks>
+
+</div>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="text-2xl p-6 bg-blue-500 bg-opacity-20 rounded-lg">
+
+**Think about it:**
+
+Which of these dysfunctions do you see most often in your organization?
+
+</div>
+
+<div class="mt-8 text-6xl">🤔</div>
+
+---
+layout: section
+transition: slide-up
+---
+
+# The Trust Equation
+
+<div class="text-gray-400">How to Build & Measure Trust</div>
+
+---
+layout: center
+---
+
+# Charles Green's Trust Equation
+
+<v-click>
+
+<div class="text-center mt-8 p-8 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl">
+
+<div class="text-4xl font-mono">
+
+Trust = <span class="text-green-400">(C + R + I)</span> / <span class="text-red-400">S</span>
+
+</div>
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="grid grid-cols-4 gap-4 mt-8 text-center">
+
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">C</div>
+  <div class="font-bold">Credibility</div>
+</div>
+
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">R</div>
+  <div class="font-bold">Reliability</div>
+</div>
+
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">I</div>
+  <div class="font-bold">Intimacy</div>
+</div>
+
+<div class="p-4 bg-red-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">S</div>
+  <div class="font-bold">Self-Orientation</div>
+</div>
+
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# Breaking Down The Equation
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+<v-click>
+<div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">💡 Credibility</div>
+  <div class="font-bold">"Do I believe what you say?"</div>
+  <div class="text-sm text-gray-400 mt-2">
+    Do you know your stuff? Does your code work? Is your documentation solid?
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-6 bg-green-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">⏰ Reliability</div>
+  <div class="font-bold">"Can I depend on you?"</div>
+  <div class="text-sm text-gray-400 mt-2">
+    Do you follow through? Do you show up? Can people count on you?
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">🤝 Intimacy</div>
+  <div class="font-bold">"Do I feel safe with you?"</div>
+  <div class="text-sm text-gray-400 mt-2">
+    Do people feel comfortable admitting mistakes? Do you create space for honesty?
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-6 bg-red-500 bg-opacity-20 rounded-lg">
+  <div class="text-2xl mb-2">🎯 Self-Orientation</div>
+  <div class="font-bold">"Whose interests come first?"</div>
+  <div class="text-sm text-gray-400 mt-2">
+    Are you here for the team? Or for yourself, promotion, being in the spotlight?
+  </div>
+</div>
+</v-click>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# The Denominator is Dangerous ⚠️
+
+<v-click>
+
+<div class="text-xl mt-8 max-w-2xl mx-auto">
+You can have <span class="text-green-400">high credibility</span>, <span class="text-green-400">high reliability</span>, <span class="text-green-400">high intimacy</span>...
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl mt-8 p-6 bg-red-500 bg-opacity-20 rounded-lg">
+But if your <span class="text-red-400 font-bold">self-orientation is high</span>? 
+<br/>
+Trust <span class="text-red-400">collapses</span>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl">
+🔍 <span class="text-gray-400">People can smell it.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4 text-lg text-cyan-400">
+People trust more those who care more about others.
+</div>
+
+</v-click>
+
+---
+layout: section
+transition: slide-up
+---
+
+# Building Trust
+
+<div class="text-gray-400">Practical Tactics</div>
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800
+---
+
+# 1. Lead with Vulnerability
+
+<v-click>
+
+<div class="p-4 bg-purple-500 bg-opacity-20 rounded-lg mt-4">
+
+> **"Vulnerability is not weakness. It's the birthplace of innovation, creativity, and change."**
+> 
+> — Brené Brown
+
+</div>
+
+</v-click>
+
+<v-click>
+
+### In Practice:
+
+<div class="text-sm mt-4">
+
+- "I don't understand this system yet. Can you walk me through it?"
+- "I made a mistake in that deployment. Here's what happened."
+- Posting in incidents channel: "I broke prod. Here's the RCA."
+- Sharing failures and lessons learned
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4 text-gray-400 text-sm">
+This is hard. Especially when you're new and want to impress people.
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# 2. Create Your Personal README
+
+<div class="grid grid-cols-2 gap-8 mt-6">
+
+<div>
+
+<v-click>
+
+<div class="text-xl mb-4">
+README files help understand services, right?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="text-2xl p-4 bg-yellow-500 bg-opacity-20 rounded-lg">
+🤔 Why don't we have that for <span class="text-yellow-400 font-bold">people</span>?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4 text-sm text-gray-400">
+I created 2-3 slides about myself and shared them during a meeting.
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg">
+
+### What to Include:
+
+- 📋 My experience
+- 😄 Funny facts about me
+- ❤️ What is important for me
+- 💬 How I prefer to give/receive feedback
+- 🗣️ My communication style
+- 😤 What drives me nuts
+- 👁️ My blind spots and quirks
+
+</div>
+
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-4 text-center text-lg text-green-400">
+No need for others to guess. Just share what works for you.
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# 3. Working Agreements
+
+<v-click>
+
+<div class="text-2xl mb-6">
+Make the <span class="text-cyan-400 font-bold">implicit</span> explicit.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="p-4 bg-orange-500 bg-opacity-20 rounded-lg mb-6">
+Every team has unwritten rules. The problem is, <span class="text-orange-400">new people don't know them</span>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="grid grid-cols-2 gap-4">
+
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
+
+### Example Agreements:
+
+- ⏰ "Be on time to meetings"
+- ✋ "Hold yourself and others accountable"
+- 👁️ "Be transparent — no surprises"
+- 💚 "Assume good intentions"
+- ✅ "Trust, but verify"
+
+</div>
+
+<div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg">
+
+### Key Points:
+
+- Not rules from above
+- Team creates them **together**
+- Revisit them **regularly**
+- Write them **down**
+
+</div>
+
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# 4. The Responsibility Flywheel
+
+<div class="flex justify-center mt-8">
+<div class="relative w-[50vw] max-w-[26rem] aspect-square">
+
+<v-click>
+<div class="absolute top-[5%] left-1/2 -translate-x-1/2 p-4 bg-blue-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-4xl">🎯</div>
+  <div class="font-bold">Take Responsibility</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="absolute top-1/2 right-[10%] -translate-y-1/2 p-4 bg-green-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-4xl">📚</div>
+  <div class="font-bold">Develop<br></br>Expertise</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="absolute bottom-[5%] left-1/2 -translate-x-1/2 p-4 bg-purple-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-4xl">🤝</div>
+  <div class="font-bold">Earn Trust</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="absolute top-1/2 left-[2%] -translate-y-1/2 p-4 bg-yellow-500 bg-opacity-30 rounded-lg text-center">
+  <div class="text-4xl">📈</div>
+  <div class="font-bold">Get More<br></br>Responsibility</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl">
+🔄
+</div>
+</v-click>
+
+</div>
+</div>
+
+
+
+
+---
+layout: center
+---
+
+# Start Small
+
+<v-clicks>
+
+- 🧪 Maybe it's the flaky test suite no one wants to touch
+- 📝 Maybe it's updating documentation
+- 🔄 Maybe it's running the retro
+- 🎯 Take ownership of **something**
+
+</v-clicks>
+
+<v-click>
+
+<div class="mt-8 p-4 bg-blue-500 bg-opacity-20 rounded-lg text-center">
+It's a flywheel — but <span class="text-cyan-400 font-bold">you have to push it</span> to get it started.
+</div>
+
+</v-click>
+
+---
+layout: section
+transition: slide-up
+---
+
+# Team Values
+
+<div class="text-gray-400">Not Just Scrum Values</div>
+
+---
+layout: default
+---
+
+# The Scrum Values
+
+<div class="grid grid-cols-5 gap-4 mt-8 text-center">
+
+<v-click>
+<div class="p-4 bg-blue-500 bg-opacity-30 rounded-lg">
+  <div class="text-4xl mb-2">💪</div>
+  <div class="font-bold">Commitment</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-red-500 bg-opacity-30 rounded-lg">
+  <div class="text-4xl mb-2">🦁</div>
+  <div class="font-bold">Courage</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-yellow-500 bg-opacity-30 rounded-lg">
+  <div class="text-4xl mb-2">🎯</div>
+  <div class="font-bold">Focus</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-green-500 bg-opacity-30 rounded-lg">
+  <div class="text-4xl mb-2">🔓</div>
+  <div class="font-bold">Openness</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-purple-500 bg-opacity-30 rounded-lg">
+  <div class="text-4xl mb-2">🙏</div>
+  <div class="font-bold">Respect</div>
+</div>
+</v-click>
+
+</div>
+
+<v-click>
+
+<div class="mt-8 p-6 bg-orange-500 bg-opacity-20 rounded-lg text-center">
+<div class="text-xl">
+I don't like that name. It gives an impression it applies only to Scrum Teams.
+</div>
+<div class="text-2xl mt-4 text-cyan-400 font-bold">
+I call them Team Values.
+</div>
+</div>
+
+</v-click>
+
+---
+layout: center
+class: text-center
+---
+
+# Trust in Action
+
+<v-clicks>
+
+When your team **commits** to goals and holds each other accountable...
+
+When people have the **courage** to raise difficult problems...
+
+When everyone **focuses** on what matters most...
+
+When there's **openness** to feedback...
+
+When people genuinely **respect** each other...
+
+</v-clicks>
+
+<v-click>
+
+<div class="text-2xl mt-8 p-6 bg-green-500 bg-opacity-20 rounded-lg">
+That's <span class="text-green-400 font-bold">trust in action</span>.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4 text-gray-400">
+It works whether you're using Scrum, Kanban, or something else.
+</div>
+
+</v-click>
+
+---
+layout: section
+transition: slide-up
+---
+
+# Closing
+
+---
+layout: center
+class: text-center
+---
+
+# Trust isn't magic. It's not luck.
+
+<v-click>
+
+<div class="text-3xl mt-8 p-6 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl">
+<span class="text-cyan-400 font-bold">Trust is a protocol.</span>
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl text-gray-400">
+It has inputs and outputs. It can be built, <span class="text-green-400">systematically</span>, over time.
+</div>
+
+</v-click>
+
+---
+layout: quote
+class: text-center
+---
+
+# "Trust is built in drops and lost in buckets."
+
+<v-click>
+
+<div class="mt-8 text-lg text-gray-400">
+Every interaction is a deposit or a withdrawal.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="grid grid-cols-4 gap-4 mt-8 text-sm">
+
+<div class="p-3 bg-blue-500 bg-opacity-20 rounded-lg">Every meeting</div>
+<div class="p-3 bg-green-500 bg-opacity-20 rounded-lg">Every code review</div>
+<div class="p-3 bg-purple-500 bg-opacity-20 rounded-lg">Every Slack message</div>
+<div class="p-3 bg-yellow-500 bg-opacity-20 rounded-lg">Every time you show up</div>
+
+</div>
+
+</v-click>
+
+---
+layout: default
+---
+
+# My Challenge to You 🎯
+
+<div class="grid grid-cols-3 gap-6 mt-8">
+
+<v-click>
+<div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg text-center">
+  <div class="text-4xl mb-4">☕</div>
+  <div class="text-xl font-bold mb-2">This Week</div>
+  <div class="text-sm text-gray-400">
+    Have a coffee chat with someone on your team you don't know well.
+    <br/><br/>
+    <span class="text-blue-400">No agenda. Just connection.</span>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-6 bg-green-500 bg-opacity-20 rounded-lg text-center">
+  <div class="text-4xl mb-4">📝</div>
+  <div class="text-xl font-bold mb-2">This Month</div>
+  <div class="text-sm text-gray-400">
+    Write your Personal README and share it with your team.
+    <br/><br/>
+    <span class="text-green-400">Experience the difference yourself.</span>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg text-center">
+  <div class="text-4xl mb-4">🤝</div>
+  <div class="text-xl font-bold mb-2">This Quarter</div>
+  <div class="text-sm text-gray-400">
+    Facilitate a Working Agreements session.
+    <br/><br/>
+    <span class="text-purple-400">Make the implicit explicit.</span>
+  </div>
+</div>
+</v-click>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="text-2xl p-8 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-xl max-w-3xl">
+
+> **"Success consists of going from failure to failure without losing enthusiasm."**
+
+</div>
+
+<v-click>
+
+<div class="mt-8 text-xl text-gray-400">
+Trust is hard. Culture is hard. Building teams is hard.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-4 text-2xl text-cyan-400 font-bold">
+But it's also the most important thing we do.
+</div>
+
+</v-click>
+
+---
+layout: center
+class: text-center
+background: https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920
+---
+
+# Thank You
+
+<div class="text-2xl mt-8">🙏</div>
+
+<v-click>
+
+<div class="mt-12 p-6 bg-black bg-opacity-50 rounded-lg inline-block">
+
+**Kamil Senecki**
+
+Scrum Master @ Pega
+
+<div class="mt-4 text-sm text-gray-400">
+Tooling scales systems — but trust scales teams.
+</div>
+
+</div>
+
+</v-click>
+
+---
+layout: center
+class: text-center
+---
+
+# Questions?
+
+<div class="text-6xl mt-8">💬</div>
+
+<v-click>
+
+<div class="mt-8 text-gray-400">
+Let's discuss!
+</div>
+
+</v-click>
+
+---
+layout: default
+class: text-sm
+---
+
+# Q&A Prep (Hidden Slide)
+
+<div class="grid grid-cols-2 gap-4">
+
+<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
+  <div class="font-bold text-yellow-400">"What if leadership doesn't support this?"</div>
+  <div class="mt-2">Start with your own team. Model the behavior. Document results. Culture change often happens bottom-up.</div>
+</div>
+
+<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
+  <div class="font-bold text-yellow-400">"How do you build trust remotely?"</div>
+  <div class="mt-2">Same principles. Over-communicate. Use video. Create informal touchpoints. The Personal README is even more important.</div>
+</div>
+
+<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
+  <div class="font-bold text-yellow-400">"What about toxic team members?"</div>
+  <div class="mt-2">Have the direct conversation first. If that fails, involve leadership. Culture is shaped by the worst behavior you tolerate.</div>
+</div>
+
+<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
+  <div class="font-bold text-yellow-400">"How long does it take to build trust?"</div>
+  <div class="mt-2">It varies, I'd say 3 months at least. Remember, you need to build real credibility. And one incident can reset it.</div>
+</div>
+
+<div class="p-4 bg-gray-500 bg-opacity-20 rounded-lg">
+  <div class="font-bold text-yellow-400">"What if I'm the new manager?"</div>
+  <div class="mt-2">Everything applies, but faster. Show vulnerability. Listen before you change things. Win small before you win big.</div>
+</div>
+
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Let's Connect! 🔗
+
+<div class="grid grid-cols-2 gap-12 mt-8 items-center">
+
+<div class="text-left">
+
+<v-click>
+<div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg mb-4 flex items-center gap-4">
+  <div class="text-3xl">🌐</div>
+  <div>
+    <div class="text-sm text-gray-400">Website</div>
+    <div class="text-xl font-bold text-cyan-400">zwinnapanda.pl</div>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-blue-700 bg-opacity-30 rounded-lg mb-4 flex items-center gap-4">
+  <div class="text-3xl">💼</div>
+  <div>
+    <div class="text-sm text-gray-400">LinkedIn</div>
+    <a href="https://www.linkedin.com/in/kamilsenecki/" target="_blank" class="text-xl font-bold text-blue-400 hover:underline">linkedin.com/in/kamilsenecki</a>
+  </div>
+</div>
+</v-click>
+
+<v-click>
+<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg flex items-center gap-4">
+  <div class="text-3xl">📊</div>
+  <div>
+    <div class="text-sm text-gray-400">These Slides</div>
+    <div class="text-xl font-bold text-green-400">[SLIDES_LINK_HERE]</div>
+  </div>
+</div>
+</v-click>
+
+</div>
+
+<v-click>
+<div class="p-8 bg-white rounded-xl">
+  <div class="text-center mb-4 text-gray-800 font-bold">Scan for Slides</div>
+  <div class="w-48 h-48 bg-gray-200 rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
+    <div class="text-center text-gray-500">
+      <div class="text-4xl mb-2">📱</div>
+      <div class="text-sm">QR CODE<br/>PLACEHOLDER</div>
+    </div>
+  </div>
+  <div class="text-center mt-4 text-gray-600 text-sm">[SLIDES_LINK_HERE]</div>
+</div>
+</v-click>
+
+</div>
+
+<div class="mt-8 text-gray-400 text-sm">
+Kamil Senecki • Scrum Master @ Pega
+</div>
