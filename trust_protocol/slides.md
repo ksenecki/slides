@@ -35,7 +35,7 @@ class: text-center
 
 <v-click>
 
-<div class="text-xl mt-8 text-gray-400">
+<div class="text-xl mt-8 text-gray-500">
 That implies there was a moment you had to <span class="text-yellow-400 font-bold">join</span> the team.
 </div>
 
@@ -52,7 +52,7 @@ New company, new people, maybe a new product...
 <v-click>
 
 <div class="text-lg mt-4 text-gray-500">
-Entering the room, the Slack, the call — everyone is <span class="text-cyan-400">new</span>.
+Entering the room, the Slack, the call — everyone is <span class="text-yellow-400 font-bold">new</span>.
 </div>
 
 </v-click>
@@ -69,30 +69,10 @@ Entering the room, the Slack, the call — everyone is <span class="text-cyan-40
 Most of us have been there at least once. That uncomfortable feeling of being the new person.
 -->
 
----
-transition: slide-up
-layout: quote
----
-
-# Today I want to talk about how we get past that.
-
-<v-click>
-
-How we go from being **"the new person"** to being a **trusted teammate**.
-
-</v-click>
-
-<v-click>
-
-<div class="mt-8 text-xl">
-And more importantly — how we build teams where <span class="text-green-400 font-bold">trust isn't just an accident, it's a consciously used protocol.</span>
-</div>
-
-</v-click>
 
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800
+image: ./assets/kamil_photo.png
 transition: slide-left
 ---
 
@@ -103,7 +83,7 @@ transition: slide-left
 - 👋 **Kamil Senecki**
 - 🎯 Scrum Master for GenAI teams at **Pega**
 - 🏢 Pega: Low-code platform for enterprise applications
-- 📅 Joined one year ago
+- 📅 Joined **Pega** one year ago
 
 </v-clicks>
 
@@ -120,26 +100,18 @@ transition: slide-left
 
 </v-click>
 
-<v-click>
-
-<div class="mt-4 text-sm text-gray-400">
-Everything we're going to talk about has been <span class="text-green-400">field tested</span>.
-</div>
-
-</v-click>
 
 ---
-layout: center
+layout: image-right
+image: ./assets/captain_frozen.jpg
 class: text-center
 ---
-
-<div class="text-6xl mb-8">🦸</div>
 
 # The Captain America Moment
 
 <v-click>
 
-<div class="text-xl mt-4 text-gray-400">
+<div class="text-xl mt-4 text-gray-500">
 You know that Marvel scene where Steve Rogers wakes up in the modern world?
 </div>
 
@@ -147,7 +119,7 @@ You know that Marvel scene where Steve Rogers wakes up in the modern world?
 
 <v-click>
 
-<div class="text-2xl mt-8 text-cyan-400 font-bold">
+<div class="text-xl mt-4 text-gray-500 font-bold">
 Same skills, completely different context.
 </div>
 
@@ -155,7 +127,7 @@ Same skills, completely different context.
 
 <v-click>
 
-<div class="text-lg mt-8 text-gray-500">
+<div class="text-xl mt-4 text-gray-500">
 That was me.
 </div>
 
@@ -186,13 +158,9 @@ layout: default
 
 <v-click>
 
-<div class="p-6 bg-orange-500 bg-opacity-20 rounded-lg">
+<div class="p-8 bg-green-500 bg-opacity-20 rounded-lg">
 
-### The Question:
-
-> "Kamil, can you join the team next week and start putting everything in place? **I have high expectations.**"
-
-<div class="text-4xl mt-4">😅</div>
+> "Kamil, can you join the team next week and start putting everything in place? <br></br> **We have high expectations.**"
 
 </div>
 
@@ -208,45 +176,46 @@ transition: slide-up
 # What Makes a Team?
 
 ---
-layout: two-cols
+transition: fade
+layout: default
 ---
 
 # GROUP vs TEAM
 
+<div class="grid grid-cols-2 gap-12">
+
 <v-click>
+<div>
 
 ## A Group:
+
+<div class="mt-6 p-4 bg-green-500 bg-opacity-20 rounded-lg">
+
 - Same Slack channel
 - Same manager
 - Same product
 
+</div>
+</div>
 </v-click>
 
 <v-click>
-
-<div class="text-6xl mt-4">👥</div>
-
-**Individual contributors sitting next to each other**
-
-</v-click>
-
-::right::
-
-<v-click>
+<div>
 
 ## A Team:
 
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
+<div class="mt-6 p-4 bg-green-500 bg-opacity-20 rounded-lg">
 
-- 🎯 **Shared purpose** — not just shared location
-- 🔧 **Collective ownership** — over product AND code
-- 📚 **Learning culture** — supportive, no blame
+- **Shared purpose** — not just location
+- **Collective ownership** — over product AND code
+- **Learning culture** — supportive, no blame
+
+</div>
+</div>
+</v-click>
 
 </div>
 
-<div class="text-6xl mt-4">🤝</div>
-
-</v-click>
 
 ---
 layout: center
@@ -266,19 +235,15 @@ They studied <span class="text-yellow-400 font-bold">hundreds of teams</span> to
 
 <v-click>
 
-<div class="mt-8 text-gray-400">
-
 What was the **#1 factor**?
-
-</div>
 
 </v-click>
 
 <v-clicks>
 
-- ❌ Not technical skill
-- ❌ Not experience  
-- ❌ Not having a star performer
+❌ Not technical skill  
+❌ Not experience  
+❌ Not having a star performer  
 
 </v-clicks>
 
@@ -302,7 +267,7 @@ The best teams were the ones where people felt <span class="text-green-400 font-
 <v-click>
 
 <div class="mt-12 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
-<div class="text-xl">That's what we want to build with <span class="text-cyan-400 font-bold text-3xl">TRUST</span></div>
+<div class="text-xl">That's what we want to build with <span class="text-yellow-400 font-bold text-2xl">TRUST</span></div>
 </div>
 
 </v-click>
@@ -314,13 +279,13 @@ transition: slide-up
 
 # Tuckman's Model
 
-<div class="text-gray-400">The Stages Every Team Goes Through</div>
+<div class="text-gray-500">The Stages Every Team Goes Through</div>
 
 ---
 layout: default
 ---
 
-# Tuckman's 5 Stages (1965)
+# Tuckman's 5 Stages
 
 <div class="grid grid-cols-5 gap-2 mt-8">
 
@@ -328,7 +293,7 @@ layout: default
 <div class="p-4 bg-blue-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">1️⃣</div>
   <div class="font-bold">Forming</div>
-  <div class="text-sm text-gray-400 mt-2">"Nice to meet you"</div>
+  <div class="text-sm text-gray-500 mt-2">"Nice to meet you"</div>
   <div class="text-xs mt-2">Everyone's polite. No one's being real yet.</div>
 </div>
 </v-click>
@@ -337,7 +302,7 @@ layout: default
 <div class="p-4 bg-red-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">2️⃣</div>
   <div class="font-bold">Storming</div>
-  <div class="text-sm text-gray-400 mt-2">"Wait, what?!"</div>
+  <div class="text-sm text-gray-600 mt-2">"Wait, what?!"</div>
   <div class="text-xs mt-2">Conflict shows up. Different approaches clash.</div>
 </div>
 </v-click>
@@ -346,7 +311,7 @@ layout: default
 <div class="p-4 bg-yellow-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">3️⃣</div>
   <div class="font-bold">Norming</div>
-  <div class="text-sm text-gray-400 mt-2">"Let's figure this out"</div>
+  <div class="text-sm text-gray-600 mt-2">"Let's figure this out"</div>
   <div class="text-xs mt-2">Standards emerge. Ways of working settle.</div>
 </div>
 </v-click>
@@ -355,7 +320,7 @@ layout: default
 <div class="p-4 bg-green-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">4️⃣</div>
   <div class="font-bold">Performing</div>
-  <div class="text-sm text-gray-400 mt-2">"Flow state"</div>
+  <div class="text-sm text-gray-600 mt-2">"Flow state"</div>
   <div class="text-xs mt-2">Actually delivering. High effectiveness.</div>
 </div>
 </v-click>
@@ -364,7 +329,7 @@ layout: default
 <div class="p-4 bg-purple-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">5️⃣</div>
   <div class="font-bold">Adjourning</div>
-  <div class="text-sm text-gray-400 mt-2">"Evolution"</div>
+  <div class="text-sm text-gray-600 mt-2">"Evolution"</div>
   <div class="text-xs mt-2">Team evolves or ends.</div>
 </div>
 </v-click>
@@ -388,7 +353,7 @@ You will spend <span class="text-red-400 font-bold">most of your time</span> in 
 
 <v-click>
 
-<div class="text-xl mt-8 text-gray-400">
+<div class="text-xl mt-8 text-gray-500">
 <span class="text-green-400 font-bold">Performing</span> is earned, not guaranteed.
 </div>
 
@@ -403,7 +368,7 @@ layout: center
 <v-click>
 
 <div class="text-2xl text-center p-6 bg-orange-500 bg-opacity-20 rounded-lg">
-Every time you add <span class="text-orange-400 font-bold">ONE new person</span> to a team, you partially reset back to <span class="text-blue-400">Forming</span>.
+Every time you add <span class="text-orange-400 font-bold">ONE new person</span> to a team, you partially reset back to <span class="text-blue-400 font-bold">Forming</span>.
 </div>
 
 </v-click>
@@ -416,14 +381,6 @@ Every time you add <span class="text-orange-400 font-bold">ONE new person</span>
 Forming → Storming → Forming → Storming → Forming → Storming...
 ```
 
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="mt-8 text-xl text-gray-500 text-center">
-Me asking: <span class="italic">"When can we stabilize?"</span>
 </div>
 
 </v-click>
@@ -445,7 +402,7 @@ transition: slide-up
 
 # The Trust Deficit
 
-<div class="text-gray-400">Lencioni's Model</div>
+<div class="text-gray-600">Lencioni's Model</div>
 
 ---
 layout: center
@@ -456,24 +413,24 @@ class: text-center
 
 <v-click>
 
-<div class="text-3xl mt-8 p-6 bg-yellow-500 bg-opacity-20 rounded-lg inline-block">
-Would you <span class="text-yellow-400 font-bold">trust me</span> with your team right now?
+<div class="text-3xl mt-8 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
+Would you <span class="text-blue-500 font-bold">trust me</span> with your team right now?
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-8 text-xl text-gray-400">
-If the answer is "not yet" — that's <span class="text-green-400">honest</span>. And that's the point.
+<div class="mt-8 text-xl text-gray-600">
+If the answer is "not yet" — that's <span class="text-green-400 font-bold">honest</span>. And that's the point.
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-8 text-lg">
-Trust isn't automatic. <span class="text-cyan-400 font-bold">It's built.</span>
+<div class="mt-8 text-lg text-gray-600">
+Trust isn't guaranteed. <span class="text-blue-500 font-bold">It's earned.</span>
 </div>
 
 </v-click>
@@ -485,26 +442,12 @@ layout: default
 # Lencioni's Pyramid of Dysfunctions
 
 <div class="flex justify-center mt-4">
-<div class="w-full max-w-xl">
+<div class="w-full max-w-xl flex flex-col-reverse">
 
 <v-click>
-<div class="bg-purple-500 bg-opacity-30 p-3 text-center rounded-t-lg mx-32">
-  <div class="font-bold">Inattention to Results</div>
-  <div class="text-xs">Individual egos win over team outcomes</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-blue-500 bg-opacity-30 p-3 text-center mx-24">
-  <div class="font-bold">Avoidance of Accountability</div>
-  <div class="text-xs">No one calls out poor performance</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-green-500 bg-opacity-30 p-3 text-center mx-16">
-  <div class="font-bold">Lack of Commitment</div>
-  <div class="text-xs">People nod in meetings but don't buy in</div>
+<div class="bg-red-500 bg-opacity-40 p-4 text-center rounded-b-lg">
+  <div class="font-bold text-xl">Absence of Trust</div>
+  <div class="text-sm">No one's vulnerable, everyone's guarded</div>
 </div>
 </v-click>
 
@@ -516,9 +459,23 @@ layout: default
 </v-click>
 
 <v-click>
-<div class="bg-red-500 bg-opacity-40 p-4 text-center rounded-b-lg">
-  <div class="font-bold text-xl">Absence of Trust</div>
-  <div class="text-sm">No one's vulnerable, everyone's guarded</div>
+<div class="bg-green-500 bg-opacity-30 p-3 text-center mx-16">
+  <div class="font-bold">Lack of Commitment</div>
+  <div class="text-xs">People nod in meetings but don't buy in</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-blue-500 bg-opacity-30 p-3 text-center mx-24">
+  <div class="font-bold">Avoidance of Accountability</div>
+  <div class="text-xs">No one calls out poor performance</div>
+</div>
+</v-click>
+
+<v-click>
+<div class="bg-purple-500 bg-opacity-30 p-3 text-center rounded-t-lg mx-32">
+  <div class="font-bold">Inattention to Results</div>
+  <div class="text-xs">Individual egos win over team outcomes</div>
 </div>
 </v-click>
 
@@ -527,8 +484,8 @@ layout: default
 
 <v-click>
 
-<div class="text-center mt-4 text-gray-400">
-Every level is caused by the one below it. <span class="text-red-400 font-bold">It all starts with trust.</span>
+<div class="text-center mt-4 text-gray-600">
+Every level is caused by the one below it. <span class="text-red-500 font-bold">It all starts with trust.</span>
 </div>
 
 </v-click>
@@ -537,7 +494,7 @@ Every level is caused by the one below it. <span class="text-red-400 font-bold">
 layout: default
 ---
 
-# The Positive Flip ✨
+# The Positive Flip
 
 <div class="grid grid-cols-2 gap-8 mt-8">
 
@@ -546,11 +503,11 @@ layout: default
 ### The Dysfunctions:
 <v-clicks>
 
-- ❌ Absence of Trust
-- ❌ Fear of Conflict
-- ❌ Lack of Commitment
-- ❌ Avoidance of Accountability
-- ❌ Inattention to Results
+❌ Absence of Trust  
+❌ Fear of Conflict  
+❌ Lack of Commitment  
+❌ Avoidance of Accountability  
+❌ Inattention to Results
 
 </v-clicks>
 
@@ -561,11 +518,11 @@ layout: default
 ### The Solutions:
 <v-clicks>
 
-- ✅ Build trust → through **vulnerability**
-- ✅ Master conflict → through **honest debate**
-- ✅ Achieve commitment → through **clarity**
-- ✅ Embrace accountability → through **peer pressure** (the good kind)
-- ✅ Focus on results → through **collective ownership**
+✅ Build trust → through **vulnerability**  
+✅ Master conflict → through **honest debate**  
+✅ Achieve commitment → through **clarity**  
+✅ Embrace accountability → through **peer pressure** (the good kind)  
+✅ Focus on results → through **collective ownership**
 
 </v-clicks>
 
@@ -573,20 +530,6 @@ layout: default
 
 </div>
 
----
-layout: center
-class: text-center
----
-
-<div class="text-2xl p-6 bg-blue-500 bg-opacity-20 rounded-lg">
-
-**Think about it:**
-
-Which of these dysfunctions do you see most often in your organization?
-
-</div>
-
-<div class="mt-8 text-6xl">🤔</div>
 
 ---
 layout: section
@@ -595,7 +538,7 @@ transition: slide-up
 
 # The Trust Equation
 
-<div class="text-gray-400">How to Build & Measure Trust</div>
+<div class="text-gray-600">How to Build & Measure Trust</div>
 
 ---
 layout: center
@@ -657,7 +600,7 @@ layout: default
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">💡 Credibility</div>
   <div class="font-bold">"Do I believe what you say?"</div>
-  <div class="text-sm text-gray-400 mt-2">
+  <div class="text-sm text-gray-600 mt-2">
     Do you know your stuff? Does your code work? Is your documentation solid?
   </div>
 </div>
@@ -667,7 +610,7 @@ layout: default
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">⏰ Reliability</div>
   <div class="font-bold">"Can I depend on you?"</div>
-  <div class="text-sm text-gray-400 mt-2">
+  <div class="text-sm text-gray-600 mt-2">
     Do you follow through? Do you show up? Can people count on you?
   </div>
 </div>
@@ -677,7 +620,7 @@ layout: default
 <div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">🤝 Intimacy</div>
   <div class="font-bold">"Do I feel safe with you?"</div>
-  <div class="text-sm text-gray-400 mt-2">
+  <div class="text-sm text-gray-600 mt-2">
     Do people feel comfortable admitting mistakes? Do you create space for honesty?
   </div>
 </div>
@@ -687,7 +630,7 @@ layout: default
 <div class="p-6 bg-red-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">🎯 Self-Orientation</div>
   <div class="font-bold">"Whose interests come first?"</div>
-  <div class="text-sm text-gray-400 mt-2">
+  <div class="text-sm text-gray-600 mt-2">
     Are you here for the team? Or for yourself, promotion, being in the spotlight?
   </div>
 </div>
@@ -700,22 +643,21 @@ layout: center
 class: text-center
 ---
 
-# The Denominator is Dangerous ⚠️
+# The Denominator is Dangerous!
 
 <v-click>
 
 <div class="text-xl mt-8 max-w-2xl mx-auto">
-You can have <span class="text-green-400">high credibility</span>, <span class="text-green-400">high reliability</span>, <span class="text-green-400">high intimacy</span>...
+You can have <span class="text-green-400 font-bold">high credibility</span>, <span class="text-green-400 font-bold">high reliability</span>, <span class="text-green-400 font-bold">high intimacy</span>...
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-2xl mt-8 p-6 bg-red-500 bg-opacity-20 rounded-lg">
-But if your <span class="text-red-400 font-bold">self-orientation is high</span>? 
+<div class="text-xl mt-8 max-w-2xl mx-auto">
+and it can still be hard to build trust with high<span class="text-red-400 font-bold"> self-orientation</span>. 
 <br/>
-Trust <span class="text-red-400">collapses</span>.
 </div>
 
 </v-click>
@@ -723,15 +665,7 @@ Trust <span class="text-red-400">collapses</span>.
 <v-click>
 
 <div class="mt-8 text-xl">
-🔍 <span class="text-gray-400">People can smell it.</span>
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="mt-4 text-lg text-cyan-400">
-People trust more those who care more about others.
+<span class="text-gray-600">People can smell it.</span>
 </div>
 
 </v-click>
@@ -743,7 +677,7 @@ transition: slide-up
 
 # Building Trust
 
-<div class="text-gray-400">Practical Tactics</div>
+<div class="text-gray-600">Practical Tactics</div>
 
 ---
 layout: image-right
@@ -781,7 +715,7 @@ image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800
 
 <v-click>
 
-<div class="mt-4 text-gray-400 text-sm">
+<div class="mt-4 text-gray-600 text-sm">
 This is hard. Especially when you're new and want to impress people.
 </div>
 
@@ -807,15 +741,15 @@ README files help understand services, right?
 
 <v-click>
 
-<div class="text-2xl p-4 bg-yellow-500 bg-opacity-20 rounded-lg">
-🤔 Why don't we have that for <span class="text-yellow-400 font-bold">people</span>?
+<div class="text-2xl p-4 bg-yellow-400 bg-opacity-20 rounded-lg">
+Why don't we have that for <span class="text-yellow-500 font-bold">people</span>?
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-4 text-sm text-gray-400">
+<div class="mt-4 text-sm text-gray-600">
 I created 2-3 slides about myself and shared them during a meeting.
 </div>
 
@@ -845,7 +779,7 @@ I created 2-3 slides about myself and shared them during a meeting.
 
 <v-click>
 
-<div class="mt-4 text-center text-lg text-green-400">
+<div class="mt-4 text-center text-2xl text-green-600">
 No need for others to guess. Just share what works for you.
 </div>
 
@@ -860,7 +794,7 @@ layout: default
 <v-click>
 
 <div class="text-2xl mb-6">
-Make the <span class="text-cyan-400 font-bold">implicit</span> explicit.
+Make the <span class="text-blue-500 font-bold">implicit</span> explicit.
 </div>
 
 </v-click>
@@ -868,7 +802,7 @@ Make the <span class="text-cyan-400 font-bold">implicit</span> explicit.
 <v-click>
 
 <div class="p-4 bg-orange-500 bg-opacity-20 rounded-lg mb-6">
-Every team has unwritten rules. The problem is, <span class="text-orange-400">new people don't know them</span>.
+Every team has unwritten rules. The problem is, <span class="text-orange-500 font-bold">new people don't know them</span>.
 </div>
 
 </v-click>
@@ -881,11 +815,11 @@ Every team has unwritten rules. The problem is, <span class="text-orange-400">ne
 
 ### Example Agreements:
 
-- ⏰ "Be on time to meetings"
-- ✋ "Hold yourself and others accountable"
-- 👁️ "Be transparent — no surprises"
-- 💚 "Assume good intentions"
-- ✅ "Trust, but verify"
+- "Be on time to meetings"
+- "Hold yourself and others accountable"
+- "Be transparent — no surprises"
+- "Assume good intentions"
+- "Trust, but verify"
 
 </div>
 
@@ -961,17 +895,17 @@ layout: center
 
 <v-clicks>
 
-- 🧪 Maybe it's the flaky test suite no one wants to touch
-- 📝 Maybe it's updating documentation
-- 🔄 Maybe it's running the retro
-- 🎯 Take ownership of **something**
+- Maybe it's the flaky test suite no one wants to touch
+- Maybe it's updating documentation
+- Maybe it's running the retro
+- Take ownership of **something**
 
 </v-clicks>
 
 <v-click>
 
 <div class="mt-8 p-4 bg-blue-500 bg-opacity-20 rounded-lg text-center">
-It's a flywheel — but <span class="text-cyan-400 font-bold">you have to push it</span> to get it started.
+It's a flywheel — but <span class="text-blue-500 font-bold">you have to push it</span> to get it started.
 </div>
 
 </v-click>
@@ -983,13 +917,13 @@ transition: slide-up
 
 # Team Values
 
-<div class="text-gray-400">Not Just Scrum Values</div>
+<div class="text-gray-600">Not Just Scrum Values</div>
 
 ---
 layout: default
 ---
 
-# The Scrum Values
+# The ~~Scrum~~ Team Values
 
 <div class="grid grid-cols-5 gap-4 mt-8 text-center">
 
@@ -1030,26 +964,6 @@ layout: default
 
 </div>
 
-<v-click>
-
-<div class="mt-8 p-6 bg-orange-500 bg-opacity-20 rounded-lg text-center">
-<div class="text-xl">
-I don't like that name. It gives an impression it applies only to Scrum Teams.
-</div>
-<div class="text-2xl mt-4 text-cyan-400 font-bold">
-I call them Team Values.
-</div>
-</div>
-
-</v-click>
-
----
-layout: center
-class: text-center
----
-
-# Trust in Action
-
 <v-clicks>
 
 When your team **commits** to goals and holds each other accountable...
@@ -1066,26 +980,10 @@ When people genuinely **respect** each other...
 
 <v-click>
 
-<div class="text-2xl mt-8 p-6 bg-green-500 bg-opacity-20 rounded-lg">
-That's <span class="text-green-400 font-bold">trust in action</span>.
+<div class="text-2xl mt-4 p-4 bg-green-500 bg-opacity-20 rounded-lg">
+That's <span class="text-green-400 font-bold">trust in action</span> and it works whether you're using Scrum, Kanban, or something else.
 </div>
-
 </v-click>
-
-<v-click>
-
-<div class="mt-4 text-gray-400">
-It works whether you're using Scrum, Kanban, or something else.
-</div>
-
-</v-click>
-
----
-layout: section
-transition: slide-up
----
-
-# Closing
 
 ---
 layout: center
@@ -1097,15 +995,15 @@ class: text-center
 <v-click>
 
 <div class="text-3xl mt-8 p-6 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl">
-<span class="text-cyan-400 font-bold">Trust is a protocol.</span>
+<span class="text-blue-500 font-bold">Trust is a protocol.</span>
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="mt-8 text-xl text-gray-400">
-It has inputs and outputs. It can be built, <span class="text-green-400">systematically</span>, over time.
+<div class="mt-8 text-xl text-gray-600">
+It has inputs and outputs. It can be built, <span class="text-green-500">systematically</span>, over time.
 </div>
 
 </v-click>
@@ -1119,7 +1017,7 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-lg text-gray-400">
+<div class="mt-8 text-lg text-gray-6400">
 Every interaction is a deposit or a withdrawal.
 </div>
 
@@ -1142,7 +1040,7 @@ Every interaction is a deposit or a withdrawal.
 layout: default
 ---
 
-# My Challenge to You 🎯
+# My Challenge to You
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 
@@ -1150,10 +1048,10 @@ layout: default
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">☕</div>
   <div class="text-xl font-bold mb-2">This Week</div>
-  <div class="text-sm text-gray-400">
+  <div class="text-sm text-gray-600">
     Have a coffee chat with someone on your team you don't know well.
     <br/><br/>
-    <span class="text-blue-400">No agenda. Just connection.</span>
+    <span class="text-blue-500">No agenda. Just connection.</span>
   </div>
 </div>
 </v-click>
@@ -1162,10 +1060,10 @@ layout: default
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">📝</div>
   <div class="text-xl font-bold mb-2">This Month</div>
-  <div class="text-sm text-gray-400">
+  <div class="text-sm text-gray-600">
     Write your Personal README and share it with your team.
     <br/><br/>
-    <span class="text-green-400">Experience the difference yourself.</span>
+    <span class="text-green-500">Experience the difference yourself.</span>
   </div>
 </div>
 </v-click>
@@ -1174,10 +1072,10 @@ layout: default
 <div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">🤝</div>
   <div class="text-xl font-bold mb-2">This Quarter</div>
-  <div class="text-sm text-gray-400">
+  <div class="text-sm text-gray-600">
     Facilitate a Working Agreements session.
     <br/><br/>
-    <span class="text-purple-400">Make the implicit explicit.</span>
+    <span class="text-purple-500">Make the implicit explicit.</span>
   </div>
 </div>
 </v-click>
@@ -1189,7 +1087,9 @@ layout: center
 class: text-center
 ---
 
-<div class="text-2xl p-8 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-xl max-w-3xl">
+# Keep trying
+
+<div class="text-2xl mt-10 p-4 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl max-w-3xl">
 
 > **"Success consists of going from failure to failure without losing enthusiasm."**
 
@@ -1197,36 +1097,28 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-xl text-gray-400">
+<div class="mt-8 text-xl text-gray-600">
 Trust is hard. Culture is hard. Building teams is hard.
 </div>
 </v-click>
 <v-click>
-<div class="mt-4 text-2xl text-cyan-400 font-bold">
+<div class="mt-4 text-2xl text-blue-500 font-bold">
 But it's also the most important thing we do.
 </div>
 
+</v-click>
+<v-click>
+<div class="mt-4 text-2xl text-black-400">
+Because tooling scales systems and <span class="text-blue-500 font-bold">TRUST</span> scales teams.
+</div>
 </v-click>
 
 ---
 layout: center
 class: text-center
-background: https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920
 ---
 
-# Remember!
-
-<div class="mt-4 text-2xl text-black-400 font-bold">
-Tooling scales systems — but trust scales teams.
-</div>
-
-
----
-layout: center
-class: text-center
----
-
-# Let's Connect! 🔗
+# Let's Connect!
 
 <div class="grid grid-cols-2 gap-12 mt-8 items-center">
 
@@ -1237,7 +1129,7 @@ class: text-center
   <div class="text-3xl">🌐</div>
   <div>
     <div class="text-sm text-black-400">Website</div>
-    <div class="text-xl font-bold text-cyan-400">zwinnapanda.pl</div>
+    <div class="text-xl font-bold text-blue-500">zwinnapanda.pl</div>
   </div>
 </div>
 </v-click>
@@ -1247,7 +1139,7 @@ class: text-center
   <div class="text-3xl">💼</div>
   <div>
     <div class="text-sm text-black-400">LinkedIn</div>
-    <a href="https://www.linkedin.com/in/kamilsenecki/" target="_blank" class="text-xl font-bold text-blue-400 hover:underline">linkedin.com/in/kamilsenecki</a>
+    <a href="https://www.linkedin.com/in/kamilsenecki/" target="_blank" class="text-xl font-bold text-blue-500 hover:underline">linkedin.com/in/kamilsenecki</a>
   </div>
 </div>
 </v-click>
@@ -1257,7 +1149,7 @@ class: text-center
   <div class="text-3xl">📊</div>
   <div>
     <div class="text-sm text-black-400">Slides</div>
-    <div class="text-xl font-bold text-green-400">github.com/ksenecki/slides/tree/main/trust_protocol</div>
+    <div class="text-xl font-bold text-green-500">github.com/ksenecki/slides/tree/main/trust_protocol</div>
   </div>
 </div>
 </v-click>
@@ -1283,7 +1175,7 @@ class: text-center
 
 </div>
 
-<div class="mt-8 text-gray-400 text-sm">
+<div class="mt-8 text-gray-600 text-sm">
 Kamil Senecki • ZwinnaPanda.pl
 </div>
 
@@ -1298,7 +1190,7 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-gray-400">
+<div class="mt-8 text-gray-600">
 Let's discuss!
 </div>
 
