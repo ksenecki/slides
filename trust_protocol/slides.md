@@ -189,7 +189,7 @@ layout: default
 
 ## A Group:
 
-<div class="mt-6 p-4 bg-green-500 bg-opacity-20 rounded-lg">
+<div class="mt-6 p-4 bg-green-400 bg-opacity-20 rounded-lg">
 
 - Same Slack channel
 - Same manager
@@ -204,7 +204,7 @@ layout: default
 
 ## A Team:
 
-<div class="mt-6 p-4 bg-green-500 bg-opacity-20 rounded-lg">
+<div class="mt-6 p-4 bg-blue-400 bg-opacity-20 rounded-lg">
 
 - **Shared purpose** — not just location
 - **Collective ownership** — over product AND code
@@ -1109,7 +1109,7 @@ But it's also the most important thing we do.
 </v-click>
 <v-click>
 <div class="mt-4 text-2xl text-black-400">
-Because tooling scales systems and <span class="text-blue-500 font-bold">TRUST</span> scales teams.
+Because tooling scales systems and <span class="text-orange-500 font-bold">TRUST</span> scales teams.
 </div>
 </v-click>
 

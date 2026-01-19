@@ -20,5 +20,5 @@ To start the slide show:
 
 Exporting:  
 - add `pnpm add -D playwright-chromium`
-- then `slidev export` by default exports pdf
-- `slidev export --format pptx` exports pptx
+- then 1pnpm run export` by default exports pdf
+- `pnpm run export --format pptx` exports pptx
