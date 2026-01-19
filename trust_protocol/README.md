@@ -9,6 +9,10 @@ Based on real-world experience building and joining product teams in an enterpri
 
 Because tooling scales systems, but trust scales teams.
 
+## Preview
+
+Preview available on [TrustProtocol](https://trustprotocol.netlify.app)
+
 ## Setup
 Made using [Slidev](https://github.com/slidevjs/slidev)!
 
@@ -20,5 +24,5 @@ To start the slide show:
 
 Exporting:  
 - add `pnpm add -D playwright-chromium`
-- then 1pnpm run export` by default exports pdf
+- then `pnpm run export` by default exports pdf
 - `pnpm run export --format pptx` exports pptx
