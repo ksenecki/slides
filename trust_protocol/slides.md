@@ -72,7 +72,7 @@ Most of us have been there at least once. That uncomfortable feeling of being th
 
 ---
 layout: image-right
-image: ./assets/kamil_photo.png
+image: /kamil_photo.png
 transition: slide-left
 ---
 
@@ -103,7 +103,7 @@ transition: slide-left
 
 ---
 layout: image-right
-image: ./assets/captain_frozen.jpg
+image: /captain_frozen.jpg
 class: text-center
 ---
 
@@ -1164,7 +1164,7 @@ class: text-center
 
   <div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
     <img
-      src=".\assets\trust_protocol_qr_code.png"
+      src="/trust_protocol_qr_code.png"
       alt="QR code for slides"
       class="w-full h-full object-contain rounded-md"
     />
