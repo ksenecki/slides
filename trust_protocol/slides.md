@@ -111,7 +111,7 @@ class: text-center
 
 <v-click>
 
-<div class="text-xl mt-4 text-gray-500">
+<div class="text-xl mt-4 text-black-500">
 You know that Marvel scene where Steve Rogers wakes up in the modern world?
 </div>
 
@@ -119,7 +119,7 @@ You know that Marvel scene where Steve Rogers wakes up in the modern world?
 
 <v-click>
 
-<div class="text-xl mt-4 text-gray-500 font-bold">
+<div class="text-xl mt-4 text-gray-black font-bold">
 Same skills, completely different context.
 </div>
 
@@ -127,7 +127,7 @@ Same skills, completely different context.
 
 <v-click>
 
-<div class="text-xl mt-4 text-gray-500">
+<div class="text-xl mt-4 text-black-500">
 That was me.
 </div>
 
@@ -279,7 +279,7 @@ transition: slide-up
 
 # Tuckman's Model
 
-<div class="text-gray-500">The Stages Every Team Goes Through</div>
+<div class="text-black-500">The Stages Every Team Goes Through</div>
 
 ---
 layout: default
@@ -402,7 +402,7 @@ transition: slide-up
 
 # The Trust Deficit
 
-<div class="text-gray-600">Lencioni's Model</div>
+<div class="text-black-500">Lencioni's Model</div>
 
 ---
 layout: center
@@ -421,7 +421,7 @@ Would you <span class="text-blue-500 font-bold">trust me</span> with your team r
 
 <v-click>
 
-<div class="mt-8 text-xl text-gray-600">
+<div class="mt-8 text-xl text-black-500">
 If the answer is "not yet" — that's <span class="text-green-400 font-bold">honest</span>. And that's the point.
 </div>
 
@@ -429,7 +429,7 @@ If the answer is "not yet" — that's <span class="text-green-400 font-bold">hon
 
 <v-click>
 
-<div class="mt-8 text-lg text-gray-600">
+<div class="mt-8 text-lg text-black-500">
 Trust isn't guaranteed. <span class="text-blue-500 font-bold">It's earned.</span>
 </div>
 
@@ -484,7 +484,7 @@ layout: default
 
 <v-click>
 
-<div class="text-center mt-4 text-gray-600">
+<div class="text-center mt-4 text-black-500">
 Every level is caused by the one below it. <span class="text-red-500 font-bold">It all starts with trust.</span>
 </div>
 
@@ -538,7 +538,8 @@ transition: slide-up
 
 # The Trust Equation
 
-<div class="text-gray-600">How to Build & Measure Trust</div>
+<div class="text-black-5
+00">How to Build & Measure Trust</div>
 
 ---
 layout: center
@@ -665,7 +666,7 @@ and it can still be hard to build trust with high<span class="text-red-400 font-
 <v-click>
 
 <div class="mt-8 text-xl">
-<span class="text-gray-600">People can smell it.</span>
+<span class="text-black-500">People can smell it.</span>
 </div>
 
 </v-click>
@@ -677,7 +678,7 @@ transition: slide-up
 
 # Building Trust
 
-<div class="text-gray-600">Practical Tactics</div>
+<div class="text-black-500">Practical Tactics</div>
 
 ---
 layout: image-right
@@ -715,7 +716,7 @@ image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800
 
 <v-click>
 
-<div class="mt-4 text-gray-600 text-sm">
+<div class="mt-4 text-black-500 text-sm">
 This is hard. Especially when you're new and want to impress people.
 </div>
 
@@ -749,7 +750,7 @@ Why don't we have that for <span class="text-yellow-500 font-bold">people</span>
 
 <v-click>
 
-<div class="mt-4 text-sm text-gray-600">
+<div class="mt-4 text-sm text-black-500">
 I created 2-3 slides about myself and shared them during a meeting.
 </div>
 
@@ -885,8 +886,6 @@ layout: default
 </div>
 
 
-
-
 ---
 layout: center
 ---
@@ -917,7 +916,7 @@ transition: slide-up
 
 # Team Values
 
-<div class="text-gray-600">Not Just Scrum Values</div>
+<div class="text-black-500">Not Just Scrum Values</div>
 
 ---
 layout: default
@@ -1002,7 +1001,7 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-xl text-gray-600">
+<div class="mt-8 text-xl text-black-500">
 It has inputs and outputs. It can be built, <span class="text-green-500">systematically</span>, over time.
 </div>
 
@@ -1097,7 +1096,7 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-xl text-gray-600">
+<div class="mt-8 text-xl text-black-500">
 Trust is hard. Culture is hard. Building teams is hard.
 </div>
 </v-click>
@@ -1175,7 +1174,7 @@ class: text-center
 
 </div>
 
-<div class="mt-8 text-gray-600 text-sm">
+<div class="mt-8 text-black-500 text-sm">
 Kamil Senecki • ZwinnaPanda.pl
 </div>
 
