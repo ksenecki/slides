@@ -35,15 +35,17 @@ class: text-center
 
 <v-click>
 
+
 <div class="text-xl mt-8 text-gray-500">
 That implies there was a moment you had to <span class="text-orange-500 font-bold">join</span> the team.
+
 </div>
 
 </v-click>
 
 <v-click>
 
-<div class="text-lg mt-4 text-gray-500">
+<div class="text-lg mt-4 text-black-500">
 New company, new people, maybe a new product...
 </div>
 
@@ -53,7 +55,6 @@ New company, new people, maybe a new product...
 
 <div class="text-lg mt-4 text-gray-500">
 Entering the room, the Slack, the call — everyone is <span class="text-orange-500 font-bold">new</span>.
-</div>
 
 </v-click>
 
@@ -293,7 +294,7 @@ layout: default
 <div class="p-4 bg-blue-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">1️⃣</div>
   <div class="font-bold">Forming</div>
-  <div class="text-sm text-gray-500 mt-2">"Nice to meet you"</div>
+  <div class="text-sm text-black-500 mt-2">"Nice to meet you"</div>
   <div class="text-xs mt-2">Everyone's polite. No one's being real yet.</div>
 </div>
 </v-click>
@@ -302,7 +303,7 @@ layout: default
 <div class="p-4 bg-red-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">2️⃣</div>
   <div class="font-bold">Storming</div>
-  <div class="text-sm text-gray-600 mt-2">"Wait, what?!"</div>
+  <div class="text-sm text-black-500 mt-2">"Wait, what?!"</div>
   <div class="text-xs mt-2">Conflict shows up. Different approaches clash.</div>
 </div>
 </v-click>
@@ -311,7 +312,7 @@ layout: default
 <div class="p-4 bg-yellow-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">3️⃣</div>
   <div class="font-bold">Norming</div>
-  <div class="text-sm text-gray-600 mt-2">"Let's figure this out"</div>
+  <div class="text-sm text-black-500 mt-2">"Let's figure this out"</div>
   <div class="text-xs mt-2">Standards emerge. Ways of working settle.</div>
 </div>
 </v-click>
@@ -320,7 +321,7 @@ layout: default
 <div class="p-4 bg-green-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">4️⃣</div>
   <div class="font-bold">Performing</div>
-  <div class="text-sm text-gray-600 mt-2">"Flow state"</div>
+  <div class="text-sm text-black-500 mt-2">"Flow state"</div>
   <div class="text-xs mt-2">Actually delivering. High effectiveness.</div>
 </div>
 </v-click>
@@ -329,7 +330,7 @@ layout: default
 <div class="p-4 bg-purple-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">5️⃣</div>
   <div class="font-bold">Adjourning</div>
-  <div class="text-sm text-gray-600 mt-2">"Evolution"</div>
+  <div class="text-sm text-black-500 mt-2">"Evolution"</div>
   <div class="text-xs mt-2">Team evolves or ends.</div>
 </div>
 </v-click>
@@ -353,7 +354,7 @@ You will spend <span class="text-red-400 font-bold">most of your time</span> in 
 
 <v-click>
 
-<div class="text-xl mt-8 text-gray-500">
+<div class="text-xl mt-8 text-black-500">
 <span class="text-green-400 font-bold">Performing</span> is earned, not guaranteed.
 </div>
 
@@ -601,7 +602,7 @@ layout: default
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">💡 Credibility</div>
   <div class="font-bold">"Do I believe what you say?"</div>
-  <div class="text-sm text-gray-600 mt-2">
+  <div class="text-sm text-black-500 mt-2">
     Do you know your stuff? Does your code work? Is your documentation solid?
   </div>
 </div>
@@ -611,7 +612,7 @@ layout: default
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">⏰ Reliability</div>
   <div class="font-bold">"Can I depend on you?"</div>
-  <div class="text-sm text-gray-600 mt-2">
+  <div class="text-sm text-black-500 mt-2">
     Do you follow through? Do you show up? Can people count on you?
   </div>
 </div>
@@ -621,7 +622,7 @@ layout: default
 <div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">🤝 Intimacy</div>
   <div class="font-bold">"Do I feel safe with you?"</div>
-  <div class="text-sm text-gray-600 mt-2">
+  <div class="text-sm text-black-500 mt-2">
     Do people feel comfortable admitting mistakes? Do you create space for honesty?
   </div>
 </div>
@@ -631,7 +632,7 @@ layout: default
 <div class="p-6 bg-red-500 bg-opacity-20 rounded-lg">
   <div class="text-2xl mb-2">🎯 Self-Orientation</div>
   <div class="font-bold">"Whose interests come first?"</div>
-  <div class="text-sm text-gray-600 mt-2">
+  <div class="text-sm text-black-500 mt-2">
     Are you here for the team? Or for yourself, promotion, being in the spotlight?
   </div>
 </div>
@@ -1047,7 +1048,7 @@ layout: default
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">☕</div>
   <div class="text-xl font-bold mb-2">This Week</div>
-  <div class="text-sm text-gray-600">
+  <div class="text-sm text-black-500">
     Have a coffee chat with someone on your team you don't know well.
     <br/><br/>
     <span class="text-blue-500">No agenda. Just connection.</span>
@@ -1059,7 +1060,7 @@ layout: default
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">📝</div>
   <div class="text-xl font-bold mb-2">This Month</div>
-  <div class="text-sm text-gray-600">
+  <div class="text-sm text-black-500">
     Write your Personal README and share it with your team.
     <br/><br/>
     <span class="text-green-500">Experience the difference yourself.</span>
@@ -1071,7 +1072,7 @@ layout: default
 <div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">🤝</div>
   <div class="text-xl font-bold mb-2">This Quarter</div>
-  <div class="text-sm text-gray-600">
+  <div class="text-sm text-black-500">
     Facilitate a Working Agreements session.
     <br/><br/>
     <span class="text-purple-500">Make the implicit explicit.</span>
@@ -1148,7 +1149,7 @@ class: text-center
   <div class="text-3xl">📊</div>
   <div>
     <div class="text-sm text-black-400">Slides</div>
-    <div class="text-xl font-bold text-green-500">github.com/ksenecki/slides/tree/main/trust_protocol</div>
+    <div class="text-xl font-bold text-green-500">github.com/ksenecki/slides/tree/ <br></br> main/trust_protocol</div>
   </div>
 </div>
 </v-click>
