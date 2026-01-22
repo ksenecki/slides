@@ -36,7 +36,7 @@ class: text-center
 <v-click>
 
 <div class="text-xl mt-8 text-gray-500">
-That implies there was a moment you had to <span class="text-yellow-400 font-bold">join</span> the team.
+That implies there was a moment you had to <span class="text-orange-500 font-bold">join</span> the team.
 </div>
 
 </v-click>
@@ -52,7 +52,7 @@ New company, new people, maybe a new product...
 <v-click>
 
 <div class="text-lg mt-4 text-gray-500">
-Entering the room, the Slack, the call — everyone is <span class="text-yellow-400 font-bold">new</span>.
+Entering the room, the Slack, the call — everyone is <span class="text-orange-500 font-bold">new</span>.
 </div>
 
 </v-click>
@@ -228,7 +228,7 @@ background: https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920
 <v-click>
 
 <div class="text-xl mt-8">
-They studied <span class="text-yellow-400 font-bold">hundreds of teams</span> to find what made some successful.
+They studied <span class="text-orange-500 font-bold">hundreds of teams</span> to find what made some successful.
 </div>
 
 </v-click>
@@ -267,7 +267,7 @@ The best teams were the ones where people felt <span class="text-green-400 font-
 <v-click>
 
 <div class="mt-12 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
-<div class="text-xl">That's what we want to build with <span class="text-yellow-400 font-bold text-2xl">TRUST</span></div>
+<div class="text-xl">That's what we want to build with <span class="text-orange-500 font-bold text-2xl">TRUST</span></div>
 </div>
 
 </v-click>
@@ -742,7 +742,7 @@ README files help understand services, right?
 
 <v-click>
 
-<div class="text-2xl p-4 bg-yellow-400 bg-opacity-20 rounded-lg">
+<div class="text-2xl p-4 bg-orange-500 bg-opacity-20 rounded-lg">
 Why don't we have that for <span class="text-yellow-500 font-bold">people</span>?
 </div>
 
