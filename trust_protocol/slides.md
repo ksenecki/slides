@@ -36,7 +36,7 @@ class: text-center
 <v-click>
 
 
-<div class="text-xl mt-8 text-gray-500">
+<div class="text-xl mt-8 text-black-500">
 That implies there was a moment you had to <span class="text-orange-500 font-bold">join</span> the team.
 
 </div>
@@ -53,7 +53,7 @@ New company, new people, maybe a new product...
 
 <v-click>
 
-<div class="text-lg mt-4 text-gray-500">
+<div class="text-lg mt-4 text-black-500">
 Entering the room, the Slack, the call — everyone is <span class="text-orange-500 font-bold">new</span>.
 
 </v-click>
@@ -120,7 +120,7 @@ You know that Marvel scene where Steve Rogers wakes up in the modern world?
 
 <v-click>
 
-<div class="text-xl mt-4 text-gray-black font-bold">
+<div class="text-xl mt-4 text-black font-bold">
 Same skills, completely different context.
 </div>
 
@@ -1017,7 +1017,7 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-lg text-gray-6400">
+<div class="mt-8 text-lg text-black-500">
 Every interaction is a deposit or a withdrawal.
 </div>
 
@@ -1158,7 +1158,7 @@ class: text-center
 
 <v-click>
 <div class="p-8 bg-white rounded-xl">
-  <div class="text-center mb-4 text-gray-800 font-bold">
+  <div class="text-center mb-4 text-black-500 font-bold">
     Scan for Slides
   </div>
 
@@ -1190,7 +1190,7 @@ class: text-center
 
 <v-click>
 
-<div class="mt-8 text-gray-600">
+<div class="mt-8 text-black-500">
 Let's discuss!
 </div>
 
