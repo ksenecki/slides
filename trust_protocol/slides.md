@@ -293,7 +293,7 @@ layout: default
 <div class="p-4 bg-blue-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">1️⃣</div>
   <div class="font-bold">Forming</div>
-  <div class="text-sm text-gray-500 mt-2">"Nice to meet you"</div>
+  <div class="text-sm text-black-500 mt-2">"Nice to meet you"</div>
   <div class="text-xs mt-2">Everyone's polite. No one's being real yet.</div>
 </div>
 </v-click>
@@ -302,7 +302,7 @@ layout: default
 <div class="p-4 bg-red-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">2️⃣</div>
   <div class="font-bold">Storming</div>
-  <div class="text-sm text-gray-600 mt-2">"Wait, what?!"</div>
+  <div class="text-sm text-black-500 mt-2">"Wait, what?!"</div>
   <div class="text-xs mt-2">Conflict shows up. Different approaches clash.</div>
 </div>
 </v-click>
@@ -311,7 +311,7 @@ layout: default
 <div class="p-4 bg-yellow-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">3️⃣</div>
   <div class="font-bold">Norming</div>
-  <div class="text-sm text-gray-600 mt-2">"Let's figure this out"</div>
+  <div class="text-sm text-black-500 mt-2">"Let's figure this out"</div>
   <div class="text-xs mt-2">Standards emerge. Ways of working settle.</div>
 </div>
 </v-click>
@@ -320,7 +320,7 @@ layout: default
 <div class="p-4 bg-green-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">4️⃣</div>
   <div class="font-bold">Performing</div>
-  <div class="text-sm text-gray-600 mt-2">"Flow state"</div>
+  <div class="text-sm text-black-500 mt-2">"Flow state"</div>
   <div class="text-xs mt-2">Actually delivering. High effectiveness.</div>
 </div>
 </v-click>
@@ -329,7 +329,7 @@ layout: default
 <div class="p-4 bg-purple-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-3xl mb-2">5️⃣</div>
   <div class="font-bold">Adjourning</div>
-  <div class="text-sm text-gray-600 mt-2">"Evolution"</div>
+  <div class="text-sm text-black-500 mt-2">"Evolution"</div>
   <div class="text-xs mt-2">Team evolves or ends.</div>
 </div>
 </v-click>
