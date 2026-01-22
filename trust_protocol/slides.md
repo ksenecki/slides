@@ -369,7 +369,7 @@ layout: center
 <v-click>
 
 <div class="text-2xl text-center p-6 bg-orange-500 bg-opacity-20 rounded-lg">
-Every time you add <span class="text-orange-400 font-bold">ONE new person</span> to a team, you partially reset back to <span class="text-blue-400 font-bold">Forming</span>.
+Every time you add <span class="text-orange-500 font-bold">ONE new person</span> to a team, you partially reset back to <span class="text-blue-400 font-bold">Forming</span>.
 </div>
 
 </v-click>
