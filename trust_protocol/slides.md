@@ -67,7 +67,7 @@ Entering the room, the Slack, the call — everyone is <span class="text-orange-
 </v-click>
 
 <!--
-Most of us have been there at least once. That uncomfortable feeling of being the new person.
+Comment in case I need it. :D
 -->
 
 
