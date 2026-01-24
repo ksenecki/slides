@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920
+background: /photo_slide1.jpg
 title: The Trust Protocol
 info: |
   ## The Trust Protocol
@@ -55,7 +55,7 @@ New company, new people, maybe a new product...
 
 <div class="text-lg mt-4 text-black-500">
 Entering the room, the Slack, the call — everyone is <span class="text-orange-500 font-bold">new</span>.
-
+</div>
 </v-click>
 
 <v-click>
