@@ -82,7 +82,7 @@ transition: slide-left
 <v-clicks>
 
 - 👋 **Kamil Senecki**
-- 🎯 Scrum Master for GenAI teams at **Pega**
+- 🎯 Scrum Master at **Pega**
 - 🏢 Pega: Low-code platform for enterprise applications
 - 📅 Joined **Pega** one year ago
 
@@ -397,15 +397,6 @@ It's not just about learning the tools. It's about re-establishing trust with ev
 </v-click>
 
 ---
-layout: section
-transition: slide-up
----
-
-# The Trust Deficit
-
-<div class="text-black-500">Lencioni's Model</div>
-
----
 layout: center
 class: text-center
 ---
@@ -435,6 +426,15 @@ Trust isn't guaranteed. <span class="text-blue-500 font-bold">It's earned.</span
 </div>
 
 </v-click>
+
+---
+layout: section
+transition: slide-up
+---
+
+# The Trust Deficit
+
+<div class="text-black-500">Lencioni's Model</div>
 
 ---
 layout: default
