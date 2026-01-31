@@ -1,6 +1,6 @@
 # Slides for my talks
 
-Made using [Slidev](https://github.com/slidevjs/slidev)!
+Made using [Slidev](https://github.com/slidevjs/slidev)
 
 ## WHOAMI
 
