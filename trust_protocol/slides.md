@@ -82,7 +82,7 @@ transition: slide-left
 <v-clicks>
 
 - 👋 **Kamil Senecki**
-- 🎯 Scrum Master at **Pega**
+- 🎯 Agile Deliver Lead at **Pega**
 - 🏢 Pega: Low-code platform for enterprise applications
 - 📅 Joined **Pega** one year ago
 
