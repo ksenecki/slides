@@ -376,18 +376,6 @@ Every time you add <span class="text-orange-500 font-bold">ONE new person</span>
 
 <v-click>
 
-<div class="mt-8 text-center">
-
-```
-Forming → Storming → Forming → Storming → Forming → Storming...
-```
-
-</div>
-
-</v-click>
-
-<v-click>
-
 <div class="mt-8 p-4 bg-blue-500 bg-opacity-20 rounded-lg">
 <strong>This is why onboarding matters so much.</strong>
 
@@ -414,7 +402,7 @@ Would you <span class="text-blue-500 font-bold">trust me</span> with your team r
 <v-click>
 
 <div class="mt-8 text-xl text-black-500">
-If the answer is "not yet" — that's <span class="text-green-400 font-bold">honest</span>. And that's the point.
+If the answer is "not yet" — that's <span class="text-green-400 font-bold">fair</span>. And that's the point.
 </div>
 
 </v-click>
