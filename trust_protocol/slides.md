@@ -817,7 +817,7 @@ Every team has unwritten rules. The problem is, <span class="text-orange-500 fon
 
 ### Key Points:
 
-- Not rules from above
+- Not rules coming from above
 - Team creates them **together**
 - Revisit them **regularly**
 - Write them **down**
