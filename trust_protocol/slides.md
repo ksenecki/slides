@@ -1108,36 +1108,46 @@ class: text-center
 
 # Let's Connect!
 
-<div class="grid grid-cols-2 gap-12 mt-8 items-center">
+<div class="grid grid-cols-[1.15fr_1fr] gap-12 mt-8 items-center">
 
-<div class="text-left">
+<div class="text-left max-w-[620px]">
 
 <v-click>
-<div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg mb-4 flex items-center gap-4">
+<div class="p-5 bg-blue-500 bg-opacity-20 rounded-lg mb-4 flex items-center gap-4">
   <div class="text-3xl">🌐</div>
   <div>
     <div class="text-sm text-black-400">Website</div>
-    <div class="text-xl font-bold text-blue-500">zwinnapanda.pl</div>
+    <div class="text-xl font-bold text-blue-500 whitespace-nowrap">
+      zwinnapanda.pl
+    </div>
   </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="p-4 bg-blue-700 bg-opacity-30 rounded-lg mb-4 flex items-center gap-4">
+<div class="p-5 bg-blue-700 bg-opacity-30 rounded-lg mb-4 flex items-center gap-4">
   <div class="text-3xl">💼</div>
   <div>
     <div class="text-sm text-black-400">LinkedIn</div>
-    <a href="https://www.linkedin.com/in/kamilsenecki/" target="_blank" class="text-xl font-bold text-blue-500 hover:underline">linkedin.com/in/kamilsenecki</a>
+    <a
+      href="https://www.linkedin.com/in/kamilsenecki/"
+      target="_blank"
+      class="text-xl font-bold text-blue-500 hover:underline whitespace-nowrap"
+    >
+      linkedin.com/in/kamilsenecki
+    </a>
   </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg flex items-center gap-4">
+<div class="p-5 bg-green-500 bg-opacity-20 rounded-lg flex items-center gap-4">
   <div class="text-3xl">📊</div>
-  <div>
+  <div class="min-w-0">
     <div class="text-sm text-black-400">Slides</div>
-    <div class="text-xl font-bold text-green-500">https://trustprotocol.zwinnapanda.pl</div>
+    <div class="text-lg font-bold text-green-500 whitespace-nowrap">
+      https://trustprotocol.zwinnapanda.pl
+    </div>
   </div>
 </div>
 </v-click>
@@ -1157,7 +1167,6 @@ class: text-center
       class="w-full h-full object-contain rounded-md"
     />
   </div>
-
 </div>
 </v-click>
 
