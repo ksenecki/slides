@@ -1117,9 +1117,12 @@ class: text-center
   <div class="text-3xl">🌐</div>
   <div>
     <div class="text-sm text-black-400">Website</div>
-    <div class="text-xl font-bold text-blue-500 whitespace-nowrap">
+    <a
+      href="https://zwinnapanda.pl/"
+      target="_blank"
+      class="text-xl font-bold text-blue-500 whitespace-nowrap">
       zwinnapanda.pl
-    </div>
+    </a>
   </div>
 </div>
 </v-click>
@@ -1145,9 +1148,12 @@ class: text-center
   <div class="text-3xl">📊</div>
   <div class="min-w-0">
     <div class="text-sm text-black-400">Slides</div>
-    <div class="text-lg font-bold text-green-500 whitespace-nowrap">
-      https://trustprotocol.zwinnapanda.pl
-    </div>
+    <a 
+      href="https://trustprotocol.zwinnapanda.pl"
+      target="_blank"
+      class="text-lg font-bold text-green-500 whitespace-nowrap">
+      trustprotocol.zwinnapanda.pl
+    </a>
   </div>
 </div>
 </v-click>
