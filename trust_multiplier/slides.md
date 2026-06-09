@@ -33,12 +33,14 @@ layout: center
 class: text-center
 ---
 
-# Have you ever inherited a team?
+# Have you ever worked in a TEAM?
 
 <v-click>
+
 
 <div class="text-xl mt-8 text-black-500">
-Or brought a new person into your team?
+That implies there was a moment you had to <span class="text-orange-500 font-bold">join</span> the team.
+
 </div>
 
 </v-click>
@@ -46,7 +48,7 @@ Or brought a new person into your team?
 <v-click>
 
 <div class="text-lg mt-4 text-black-500">
-New hire, new manager, team reorganization...
+New company, new people, maybe a new product...
 </div>
 
 </v-click>
@@ -54,22 +56,17 @@ New hire, new manager, team reorganization...
 <v-click>
 
 <div class="text-lg mt-4 text-black-500">
-The dynamic shifts. People recalibrate. <span class="text-orange-500 font-bold">Trust resets.</span>
+Entering the room, the Slack, the call — everyone is <span class="text-orange-500 font-bold">new</span>.
 </div>
 </v-click>
 
 <v-click>
 
 <div class="mt-12 text-2xl">
-🤔 And suddenly, everything slows down.
+🤔 No idea what to do and say.
 </div>
 
 </v-click>
-
-<!--
-SCRIPT: Show of hands — who has ever taken over a team, or had someone new join and felt the team slow down? That slowdown is not a coincidence. It has a name, and today we're going to talk about what causes it and, more importantly, what you can do about it.
--->
-
 ---
 layout: image-right
 image: /kamil_photo.png
@@ -81,7 +78,7 @@ transition: slide-left
 <v-clicks>
 
 - 👋 **Kamil Senecki**
-- 🎯 Agile Delivery Lead at **Pega**
+- 🎯 Agile Deliver Lead at **Pega**
 - 🏢 Pega: Low-code platform for enterprise applications
 - 📅 Joined **Pega** one year ago
 
@@ -90,7 +87,7 @@ transition: slide-left
 <v-click>
 
 <div class="mt-6 p-4 bg-blue-500 bg-opacity-20 rounded-lg">
-<strong>When I joined, everything was new:</strong>
+<strong>Everything was new:</strong>
 
 - Industry
 - Company  
@@ -100,9 +97,6 @@ transition: slide-left
 
 </v-click>
 
-<!--
-SCRIPT: I'm Kamil. I'm an Agile Delivery Lead at Pega. About a year ago I joined this company and had to build trust from scratch — with a new team, in a new industry, with a new product. That experience gave me a very practical perspective on what trust actually looks and feels like from the inside. Today I want to share that with you.
--->
 
 ---
 layout: image-right
@@ -110,7 +104,7 @@ image: /captain_frozen.jpg
 class: text-center
 ---
 
-# The New Manager Moment
+# The Captain America Moment
 
 <v-click>
 
@@ -131,14 +125,10 @@ Same skills, completely different context.
 <v-click>
 
 <div class="text-xl mt-4 text-black-500">
-That's any new leader joining a team.
+That was me.
 </div>
 
 </v-click>
-
-<!--
-SCRIPT: There's a scene in Marvel where Captain America wakes up after being frozen for 70 years. He's got all his skills — he's still Captain America — but everything around him has changed. That's what it feels like to step into a new team. You have your experience, your track record. But none of that is visible yet to the people sitting in front of you.
--->
 
 ---
 transition: fade
@@ -184,11 +174,7 @@ layout: section
 transition: slide-up
 ---
 
-# What Is a Team, Really?
-
-<!--
-SCRIPT: Before we talk about building trust, let's make sure we're aligned on something more basic: what actually makes a group of people a team?
--->
+# What Makes a Team?
 
 ---
 transition: fade
@@ -222,7 +208,7 @@ layout: default
 <div class="mt-6 p-4 bg-blue-400 bg-opacity-20 rounded-lg">
 
 - **Shared purpose** — not just location
-- **Collective ownership** — over outcomes
+- **Collective ownership** — over product AND code
 - **Learning culture** — supportive, no blame
 
 </div>
@@ -231,13 +217,11 @@ layout: default
 
 </div>
 
-<!--
-SCRIPT: A group is people who happen to share a manager or a Slack channel. A team is something different. A team has shared purpose — they care about the same outcome. They own it together. And they feel safe enough to learn from each other. That last part — the learning culture — is where trust becomes critical.
--->
 
 ---
 layout: center
 class: text-center
+background: https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920
 ---
 
 # Google's Project Aristotle
@@ -245,7 +229,7 @@ class: text-center
 <v-click>
 
 <div class="text-xl mt-8">
-They studied <span class="text-orange-500 font-bold">hundreds of teams</span> across Google to find what made some consistently successful.
+They studied <span class="text-orange-500 font-bold">hundreds of teams</span> to find what made some successful.
 </div>
 
 </v-click>
@@ -258,15 +242,11 @@ What was the **#1 factor**?
 
 <v-clicks>
 
-❌ Not team size  
-❌ Not seniority level  
+❌ Not technical skill  
+❌ Not experience  
 ❌ Not having a star performer  
 
 </v-clicks>
-
-<!--
-SCRIPT: Google ran a multi-year study called Project Aristotle. They looked at hundreds of teams and tried to find the patterns behind high performance. They had access to all the data — who's on the team, how experienced they are, how senior their manager is. And what they found surprised a lot of people.
--->
 
 ---
 layout: center
@@ -280,7 +260,7 @@ class: text-center
 <v-click>
 
 <div class="text-2xl mt-8 max-w-2xl mx-auto">
-The best teams were the ones where people felt <span class="text-green-400 font-bold">safe to take risks</span>, speak up, and admit mistakes.
+The best teams were the ones where people felt <span class="text-green-400 font-bold">safe to take risks</span>, ask questions, and admit mistakes.
 </div>
 
 </v-click>
@@ -288,14 +268,10 @@ The best teams were the ones where people felt <span class="text-green-400 font-
 <v-click>
 
 <div class="mt-12 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
-<div class="text-xl">As a manager, <span class="text-orange-500 font-bold text-2xl">you set this tone</span></div>
+<div class="text-xl">That's what we want to build with <span class="text-orange-500 font-bold text-2xl">TRUST</span></div>
 </div>
 
 </v-click>
-
-<!--
-SCRIPT: Psychological safety. The feeling that you won't be punished for speaking up, asking a question, or admitting you don't know something. And here's the critical point for everyone in this room: as a manager or scrum master, YOU are the one who sets that tone. Your reaction to someone's mistake — in a meeting, in a retrospective, in a 1:1 — either builds or destroys that safety.
--->
 
 ---
 layout: section
@@ -304,11 +280,7 @@ transition: slide-up
 
 # Tuckman's Model
 
-<div class="text-black-500">Why Your Team Keeps Slowing Down</div>
-
-<!--
-SCRIPT: Now let's talk about a framework that every manager should have tattooed on their brain — Tuckman's stages of team development.
--->
+<div class="text-black-500">The Stages Every Team Goes Through</div>
 
 ---
 layout: default
@@ -323,7 +295,7 @@ layout: default
   <div class="text-3xl mb-2">1️⃣</div>
   <div class="font-bold">Forming</div>
   <div class="text-sm text-black-500 mt-2">"Nice to meet you"</div>
-  <div class="text-xs mt-2">Polite, cautious. No one's being real yet.</div>
+  <div class="text-xs mt-2">Everyone's polite. No one's being real yet.</div>
 </div>
 </v-click>
 
@@ -332,7 +304,7 @@ layout: default
   <div class="text-3xl mb-2">2️⃣</div>
   <div class="font-bold">Storming</div>
   <div class="text-sm text-black-500 mt-2">"Wait, what?!"</div>
-  <div class="text-xs mt-2">Conflict shows up. Approaches clash.</div>
+  <div class="text-xs mt-2">Conflict shows up. Different approaches clash.</div>
 </div>
 </v-click>
 
@@ -359,27 +331,23 @@ layout: default
   <div class="text-3xl mb-2">5️⃣</div>
   <div class="font-bold">Adjourning</div>
   <div class="text-sm text-black-500 mt-2">"Evolution"</div>
-  <div class="text-xs mt-2">Team evolves or disbands.</div>
+  <div class="text-xs mt-2">Team evolves or ends.</div>
 </div>
 </v-click>
 
 </div>
-
-<!--
-SCRIPT: Tuckman described five stages every team goes through. Forming — everyone's new and polite. Storming — conflict emerges as people figure out how to work together. Norming — things stabilize. Performing — you're actually delivering at a high level. And Adjourning — the team changes or ends. Most teams want to jump straight to Performing. But you can't skip the earlier stages.
--->
 
 ---
 layout: center
 class: text-center
 ---
 
-# The Truth Nobody Tells Managers
+# The Truth Nobody Tells You
 
 <v-click>
 
 <div class="text-4xl mt-8 p-6 bg-red-500 bg-opacity-20 rounded-lg inline-block">
-Most teams spend <span class="text-red-400 font-bold">most of their time</span> in Storming and Norming.
+You will spend <span class="text-red-400 font-bold">most of your time</span> in Storming and Norming.
 </div>
 
 </v-click>
@@ -392,10 +360,6 @@ Most teams spend <span class="text-red-400 font-bold">most of their time</span> 
 
 </v-click>
 
-<!--
-SCRIPT: Here's what nobody tells you in management training: most teams, most of the time, are not in Performing. They're stuck in Storming or Norming. And that's okay — it's normal. What's not okay is not knowing it, and not having a plan to move through it faster.
--->
-
 ---
 layout: center
 ---
@@ -405,7 +369,7 @@ layout: center
 <v-click>
 
 <div class="text-2xl text-center p-6 bg-orange-500 bg-opacity-20 rounded-lg">
-Every time you add <span class="text-orange-500 font-bold">ONE new person</span> to a team, the team partially resets back to <span class="text-blue-400 font-bold">Forming</span>.
+Every time you add <span class="text-orange-500 font-bold">ONE new person</span> to a team, you partially reset back to <span class="text-blue-400 font-bold">Forming</span>.
 </div>
 
 </v-click>
@@ -413,16 +377,43 @@ Every time you add <span class="text-orange-500 font-bold">ONE new person</span>
 <v-click>
 
 <div class="mt-8 p-4 bg-blue-500 bg-opacity-20 rounded-lg">
-<strong>This is why onboarding is a leadership responsibility — not an HR task.</strong>
+<strong>This is why onboarding matters so much.</strong>
 
-The faster you rebuild trust after a change, the faster you get back to Performing.
+It's not just about learning the tools. It's about re-establishing trust with every new configuration of the team.
 </div>
 
 </v-click>
 
-<!--
-SCRIPT: And here's the killer insight for managers: every time you add or lose a team member, you reset. Every reorg, every new hire, every departure — the trust that was built has to be rebuilt. This is why onboarding is not just an HR checklist. It's a trust-building exercise, and as a manager, you own it.
--->
+---
+layout: center
+class: text-center
+---
+
+# We have just met.
+
+<v-click>
+
+<div class="text-3xl mt-8 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
+Would you <span class="text-blue-500 font-bold">trust me</span> with your team right now?
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-xl text-black-500">
+If the answer is "not yet" — that's <span class="text-green-400 font-bold">fair</span>. And that's the point.
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="mt-8 text-lg text-black-500">
+Trust isn't guaranteed. <span class="text-blue-500 font-bold">It's earned.</span>
+</div>
+
+</v-click>
 
 ---
 layout: section
@@ -664,12 +655,12 @@ layout: center
 class: text-center
 ---
 
-# The Denominator is the Manager's Trap
+# The Denominator is Dangerous!
 
 <v-click>
 
 <div class="text-xl mt-8 max-w-2xl mx-auto">
-You can be <span class="text-green-400 font-bold">highly credible</span>, <span class="text-green-400 font-bold">reliable</span>, and <span class="text-green-400 font-bold">create safety</span>...
+You can have <span class="text-green-400 font-bold">high credibility</span>, <span class="text-green-400 font-bold">high reliability</span>, <span class="text-green-400 font-bold">high intimacy</span>...
 </div>
 
 </v-click>
@@ -677,7 +668,7 @@ You can be <span class="text-green-400 font-bold">highly credible</span>, <span 
 <v-click>
 
 <div class="text-xl mt-8 max-w-2xl mx-auto">
-...but if your team feels you're playing politics or protecting yourself over them, <span class="text-red-400 font-bold">trust tanks</span>.
+and it can still be hard to build trust with high<span class="text-red-400 font-bold"> self-orientation</span>. 
 <br/>
 </div>
 
@@ -686,14 +677,10 @@ You can be <span class="text-green-400 font-bold">highly credible</span>, <span 
 <v-click>
 
 <div class="mt-8 text-xl">
-<span class="text-black-500">Teams always notice. Always.</span>
+<span class="text-black-500">People can smell it.</span>
 </div>
 
 </v-click>
-
-<!--
-SCRIPT: Teams are remarkably good at reading intent. They may not be able to articulate it, but they feel it. The moment they sense your decisions are about your career rather than their outcomes — you've lost something very hard to rebuild. This is the manager's trap. And it's why self-awareness matters so much in leadership.
--->
 
 ---
 layout: section
@@ -933,14 +920,13 @@ SCRIPT: The fourth tool is about delegation. As a manager, trust isn't just some
 layout: center
 ---
 
-# Start Small — But Start
+# Start Small
 
 <v-clicks>
 
-- Maybe it's owning the sprint retrospective
 - Maybe it's running a stakeholder update
 - Maybe it's making a call on a technical decision
-- Give real ownership of **something meaningful**
+- Listen to your team needs, and help them
 
 </v-clicks>
 
@@ -1036,12 +1022,12 @@ layout: center
 class: text-center
 ---
 
-# Trust Isn't Soft. It's Structural.
+# Trust isn't magic. It's not luck.
 
 <v-click>
 
 <div class="text-3xl mt-8 p-6 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl">
-<span class="text-blue-500 font-bold">Trust is a system.</span> It can be built deliberately.
+It can be built deliberately and used in our daily work.
 </div>
 
 </v-click>
@@ -1077,9 +1063,9 @@ Every interaction is a deposit or a withdrawal.
 
 <div class="grid grid-cols-4 gap-4 mt-8 text-sm">
 
-<div class="p-3 bg-blue-500 bg-opacity-20 rounded-lg">Every 1:1</div>
-<div class="p-3 bg-green-500 bg-opacity-20 rounded-lg">Every sprint review</div>
-<div class="p-3 bg-purple-500 bg-opacity-20 rounded-lg">Every retrospective</div>
+<div class="p-3 bg-blue-500 bg-opacity-20 rounded-lg">Every meeting</div>
+<div class="p-3 bg-green-500 bg-opacity-20 rounded-lg">Every email</div>
+<div class="p-3 bg-purple-500 bg-opacity-20 rounded-lg">Every interaction</div>
 <div class="p-3 bg-yellow-500 bg-opacity-20 rounded-lg">Every decision you make</div>
 
 </div>
@@ -1094,7 +1080,7 @@ SCRIPT: Trust is built in drops and lost in buckets. Every interaction either ad
 layout: default
 ---
 
-# Your Leadership Challenge
+# My Challenge to You
 
 <div class="grid grid-cols-3 gap-6 mt-8">
 
@@ -1103,9 +1089,9 @@ layout: default
   <div class="text-4xl mb-4">☕</div>
   <div class="text-xl font-bold mb-2">This Week</div>
   <div class="text-sm text-black-500">
-    Have a 1:1 with someone on your team you don't know well enough.
+    Have a coffee chat with someone on your team you don't know well.
     <br/><br/>
-    <span class="text-blue-500">Ask: what do I do that makes your job harder?</span>
+    <span class="text-blue-500">No agenda. Just connection.</span>
   </div>
 </div>
 </v-click>
@@ -1117,7 +1103,7 @@ layout: default
   <div class="text-sm text-black-500">
     Write your Personal README and share it with your team.
     <br/><br/>
-    <span class="text-green-500">Then ask them to write theirs.</span>
+    <span class="text-green-500">Experience the difference yourself.</span>
   </div>
 </div>
 </v-click>
@@ -1127,25 +1113,21 @@ layout: default
   <div class="text-4xl mb-4">🤝</div>
   <div class="text-xl font-bold mb-2">This Quarter</div>
   <div class="text-sm text-black-500">
-    Facilitate a Working Agreements session with your team.
+    Facilitate a Working Agreements session.
     <br/><br/>
-    <span class="text-purple-500">Let them set the rules.</span>
+    <span class="text-purple-500">Make the implicit explicit.</span>
   </div>
 </div>
 </v-click>
 
 </div>
 
-<!--
-SCRIPT: Three concrete actions. This week: have a 1:1 where you ask someone what you do that makes their job harder. It's uncomfortable. Do it anyway. This month: write your Personal README and share it first. Model the vulnerability you want to see. This quarter: run a Working Agreements session. Facilitate it — don't dictate it. Three actions, three time horizons. Small investments with outsized returns.
--->
-
 ---
 layout: center
 class: text-center
 ---
 
-# Keep Trying
+# Keep trying
 
 <div class="text-2xl mt-10 p-4 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl max-w-3xl">
 
@@ -1156,12 +1138,12 @@ class: text-center
 <v-click>
 
 <div class="mt-8 text-xl text-black-500">
-Building trust is hard. Leading is hard. Building teams is hard.
+Trust is hard. Culture is hard. Building teams is hard.
 </div>
 </v-click>
 <v-click>
 <div class="mt-4 text-2xl text-blue-500 font-bold">
-But it's the most leveraged thing you can do as a leader.
+But it's also the most important thing we do.
 </div>
 
 </v-click>
@@ -1170,10 +1152,6 @@ But it's the most leveraged thing you can do as a leader.
 Because tooling scales systems and <span class="text-orange-500 font-bold">TRUST</span> scales teams.
 </div>
 </v-click>
-
-<!--
-SCRIPT: I want to leave you with this. You will try things and they won't work. You will have a team that storms for longer than expected. You'll have someone quit, or join, and feel the reset happen. Keep going. Every leader who has a high-trust team built it through a series of imperfect attempts, honest conversations, and showing up consistently. The payoff is a team that doesn't need you to hold it together. That's the goal.
--->
 
 ---
 layout: center
