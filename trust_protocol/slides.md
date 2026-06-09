@@ -1137,7 +1137,7 @@ class: text-center
   <div class="text-3xl">📊</div>
   <div>
     <div class="text-sm text-black-400">Slides</div>
-    <div class="text-xl font-bold text-green-500">github.com/ksenecki/slides/tree/ <br></br> main/trust_protocol</div>
+    <div class="text-xl font-bold text-green-500">https://trustprotocol.zwinnapanda.pl</div>
   </div>
 </div>
 </v-click>
