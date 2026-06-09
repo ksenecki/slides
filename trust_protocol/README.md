@@ -11,7 +11,7 @@ Because tooling scales systems, but trust scales teams.
 
 ## Preview
 
-Preview available on [TrustProtocol](https://trustprotocol.zwinnapanda.pl)
+Preview available on [Trust Protocol](https://trustprotocol.zwinnapanda.pl)
 
 ## More stuff
 

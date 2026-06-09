@@ -23,9 +23,6 @@ mdc: true
   <span class="text-sm opacity-80">Kamil Senecki</span>
 </div>
 
-<!--
-SCRIPT: Welcome everyone. Today we're going to talk about something every manager and scrum master deals with every single day — trust. Not as a soft, fluffy concept, but as a real, practical tool you can use to build stronger teams and get better results. Let's dive in.
--->
 
 ---
 transition: fade-out
@@ -165,9 +162,7 @@ layout: default
 
 </div>
 
-<!--
-SCRIPT: And while you're still figuring out who's who, the expectation is already there. Deliver. Lead. Get things moving. The pressure is real. And the fastest way to fail in that moment is to try to go it alone — without trust.
--->
+
 
 ---
 layout: section
@@ -424,9 +419,7 @@ transition: slide-up
 
 <div class="text-black-500">Lencioni's Model — Why Teams Fail</div>
 
-<!--
-SCRIPT: Now let's look at what happens when trust breaks down. Patrick Lencioni wrote one of the most influential books on team dynamics — The Five Dysfunctions of a Team. Let's walk through his model.
--->
+
 
 ---
 layout: default
@@ -483,9 +476,7 @@ Every level is caused by the one below it. <span class="text-red-500 font-bold">
 
 </v-click>
 
-<!--
-SCRIPT: Look at this pyramid. When there's no trust at the base, people are afraid to have honest conflict. When people avoid conflict, they don't actually commit to decisions — they just pretend to. When there's no commitment, no one holds each other accountable. And when there's no accountability, results suffer. Every single dysfunction traces back to trust. Fix the foundation, and the rest gets easier.
--->
+
 
 ---
 layout: default
@@ -527,9 +518,7 @@ layout: default
 
 </div>
 
-<!--
-SCRIPT: Let me make this concrete. In a low-trust team, you feel it. Sprint planning is a negotiation. Retros are quiet. People come to you with conflicts instead of resolving them. In a high-trust team — the team delivers. The retro is actually useful. People hold each other accountable so you don't have to do it all yourself. That's the difference trust makes in your day-to-day life as a manager.
--->
+
 
 ---
 layout: section
@@ -540,9 +529,7 @@ transition: slide-up
 
 <div class="text-black-500">A Framework for Building & Diagnosing Trust</div>
 
-<!--
-SCRIPT: So how do we actually build trust? Let me give you a framework — the Trust Equation from Charles Green. It gives you a practical way to diagnose trust issues and fix them.
--->
+
 
 ---
 layout: center
@@ -592,9 +579,6 @@ Trust = <span class="text-green-400">(C + R + I)</span> / <span class="text-red-
 
 </v-click>
 
-<!--
-SCRIPT: Trust equals Credibility plus Reliability plus Intimacy — divided by Self-Orientation. The numerator is what you build. The denominator is what destroys it. Let me break each one down.
--->
 
 ---
 layout: default
@@ -646,9 +630,7 @@ layout: default
 
 </div>
 
-<!--
-SCRIPT: Credibility — do people believe your decisions and your expertise? Reliability — do you do what you say you'll do? Intimacy — do people feel psychologically safe with you? They bring you the real problems, not the sanitized version? And Self-Orientation — this is the killer. If people sense you're managing upward, protecting yourself, or playing politics — trust collapses. Even if you're credible and reliable.
--->
+
 
 ---
 layout: center
@@ -691,9 +673,7 @@ transition: slide-up
 
 <div class="text-black-500">Practical Tools for Managers & Scrum Masters</div>
 
-<!--
-SCRIPT: Okay. Enough theory. Let's talk about what you can actually DO. Four concrete practices.
--->
+
 
 ---
 layout: image-right
@@ -737,9 +717,6 @@ This is hard. Especially when you're expected to have the answers.
 
 </v-click>
 
-<!--
-SCRIPT: The fastest way to build trust as a leader is to go first. Vulnerability. When you admit you don't know something, or that you made a mistake, you give everyone else permission to do the same. That is how psychological safety gets built — not through a values poster on the wall, but through watching their manager be human.
--->
 
 ---
 layout: default
@@ -805,9 +782,6 @@ No need for guesswork. Just make it explicit.
 
 </v-click>
 
-<!--
-SCRIPT: Here's a practical tool. A Personal README. Write a short document — 2 or 3 slides or a Confluence page — that explains how to work with you. Share it with your team. Then ask them to write their own. When you know how someone prefers to receive feedback, what stresses them out, what they care about — you stop misreading each other. It accelerates trust enormously.
--->
 
 ---
 layout: default
@@ -862,9 +836,7 @@ Every team has unwritten rules. The problem is, <span class="text-orange-500 fon
 
 </v-click>
 
-<!--
-SCRIPT: Working Agreements are the team's social contract. And here's the critical part: you don't write them for the team. You facilitate the team in writing them together. When people create the rules themselves, they own them. They enforce them on each other. That peer accountability is exactly what Lencioni said you need — and it only exists when trust is there. Working Agreements help create the conditions for that trust.
--->
+
 
 ---
 layout: default
@@ -912,9 +884,7 @@ layout: default
 </div>
 </div>
 
-<!--
-SCRIPT: The fourth tool is about delegation. As a manager, trust isn't just something your team has in you — it's something you show in them. When you delegate real responsibility and let people run with it, you start a flywheel. They grow. They deliver. They earn more autonomy. The team becomes self-sufficient. Your job shifts from doing to enabling. That's what scaling looks like.
--->
+
 
 ---
 layout: center
@@ -938,9 +908,6 @@ The flywheel only starts moving when you <span class="text-blue-500 font-bold">h
 
 </v-click>
 
-<!--
-SCRIPT: And it doesn't have to be a big thing at the start. Give someone ownership of the retro. Let them run the sprint demo. Let them make a call. Watch what happens. Most people rise to it. And when they do, you've created trust in both directions — they trust you to give them room to grow, and you trust them to deliver.
--->
 
 ---
 layout: section
@@ -1040,9 +1007,6 @@ Tooling scales systems. <span class="text-orange-500 font-bold font-bold">Trust 
 
 </v-click>
 
-<!--
-SCRIPT: I want to challenge the idea that trust is a soft skill. It's not. It's infrastructure. When trust is high, you don't need to micromanage. You don't need to be in every meeting. You don't need to chase every decision. The team runs. That's what scaling looks like — not more process, not more tools. Trust.
--->
 
 ---
 layout: quote
@@ -1072,9 +1036,6 @@ Every interaction is a deposit or a withdrawal.
 
 </v-click>
 
-<!--
-SCRIPT: Trust is built in drops and lost in buckets. Every interaction either adds to or subtracts from your trust account. Every 1:1, every sprint review, every retro, every decision you make while your team is watching — these are moments. How you show up in them matters more than any framework or process you implement.
--->
 
 ---
 layout: default
@@ -1204,7 +1165,7 @@ class: text-center
 
   <div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
     <img
-      src="/trust_protocol_qr_code.png"
+      src="./public/trust_multiplier_qr_code.png"
       alt="QR code for slides"
       class="w-full h-full object-contain rounded-md"
     />
@@ -1219,9 +1180,6 @@ class: text-center
 Kamil Senecki • ZwinnaPanda.pl
 </div>
 
-<!--
-SCRIPT: Thank you. I'd love to continue the conversation — find me on LinkedIn, check out the slides, or come talk to me now. If you try any of the three practices I mentioned, I'd genuinely love to hear how it went.
--->
 
 ---
 layout: center
@@ -1240,6 +1198,3 @@ Let's discuss!
 
 </v-click>
 
-<!--
-SCRIPT: What questions do you have? And if not questions — what will you try first?
--->
