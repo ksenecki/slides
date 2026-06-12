@@ -14,7 +14,7 @@ Kamil Senecki is an IT professional with roots in embedded systems testing and a
 [Linkedin](https://www.linkedin.com/in/kamilsenecki/)  
 [Youtube Channel](https://www.youtube.com/@zwinnapanda)  
 
-[![Funny Agile Stuff](assets/cupsell_merch.png)](https://zwinnapanda.cupsell.pl/)
+[![Funny Agile Stuff](assets/cupsell_banner.png)](https://zwinnapanda.cupsell.pl/)
 
 ## Previous talks
 
