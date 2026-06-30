@@ -674,7 +674,7 @@ layout: image-right
 image: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800
 ---
 
-# 1. Lead with Vulnerability
+# 1. Vulnerability
 
 <v-click>
 
