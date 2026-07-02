@@ -120,7 +120,7 @@ You know that Marvel scene where Steve Rogers wakes up in the modern world?
 
 <v-click>
 
-<div class="text-xl mt-4 text-black font-bold">
+<div class="text-xl mt-4 text-black">
 Same skills, completely different context.
 </div>
 
@@ -1162,7 +1162,7 @@ class: text-center
 
 <v-click>
 <div class="p-8 bg-white rounded-xl">
-  <div class="text-center mb-4 text-black-500 font-bold">
+  <div class="text-center mb-4 text-black-500">
     Scan for Slides
   </div>
 
