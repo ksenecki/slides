@@ -120,7 +120,7 @@ You know that Marvel scene where Steve Rogers wakes up in the modern world?
 
 <v-click>
 
-<div class="text-xl mt-4 text-black">
+<div class="text-xl mt-4 text-black-500">
 Same skills, completely different context.
 </div>
 
