@@ -1162,7 +1162,7 @@ class: text-center
 
 <v-click>
 <div class="p-8 bg-white rounded-xl">
-    <div class="text-sm text-black-400">Slides</div>
+    <div class="text-sm text-neutral-400">Slides</div>
   <div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
     <img
       src="/trust_protocol_qr_code.png"
