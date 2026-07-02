@@ -1162,9 +1162,6 @@ class: text-center
 
 <v-click>
 <div class="p-8 bg-white rounded-xl">
-  <div class="text-center mb-4 text-black-500">
-    Scan for Slides
-  </div>
 
   <div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
     <img
