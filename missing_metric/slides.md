@@ -106,7 +106,7 @@ Those are <span class="text-red-400 font-bold">tasks</span>. They describe work,
 
 <div class="text-2xl mt-4 text-cyan-500 font-bold">Who benefits — and how?</div>
 
-<div class="mt-4 text-sm text-blue-500">If there is no clear benefit, there is no value — only <span class="text-yellow-500">activity</span>.</div>
+<div class="mt-4 text-2xl text-blue-500">If there is no clear benefit, there is no value — only <span class="text-yellow-500">activity</span>.</div>
 
 </div>
 </v-click>
@@ -1207,7 +1207,7 @@ layout: two-cols
 layout: default
 ---
 
-# Lencioni's Dysfunctions — Engineering Edition
+# Lencioni's Dysfunctions
 
 <div class="flex justify-center mt-2">
 <div class="w-full max-w-xl flex flex-col-reverse leading-tight">
@@ -1471,7 +1471,7 @@ layout: center
 class: text-center
 ---
 
-# The Final Equation
+# All The Elements
 
 <v-click>
 <div class="mt-8 p-8 bg-blue-500 bg-opacity-10 rounded-xl font-mono text-xl text-left inline-block">
