@@ -1,13 +1,20 @@
 # The Trust Protocol: Human APIs for High-Performing Teams
 
 ## Abstract
-Modern teams work in environments defined by constant change: new hires, shifting priorities, distributed work, and continuous delivery pressure. In this reality, trust is often assumed—or ignored—until it becomes a problem.
 
-Let's reframe trust as something concrete and intentional rather than “soft” or accidental. By looking at how teams actually form, break down, and recover, we explore why trust is a critical enabler of psychological safety, healthy conflict, accountability, and sustained delivery.
+Modern engineering organizations have become exceptionally good at measuring software delivery. We track deployment frequency, lead time, MTTR, and change failure rate. We optimize pipelines, automate infrastructure, and adopt the latest platforms.
 
-Based on real-world experience building and joining product teams in an enterprise setting, let's connect research-backed insights with practical observations from day-to-day team life. Attendees will leave with a clearer mental model for understanding trust in teams and new ways to think about onboarding, collaboration, and team dynamics in Agile environments.
+Yet many organizations still struggle to answer a much simpler question:
 
-Because tooling scales systems, but trust scales teams.
+**Did any of this improve the business?**
+
+DevOps was never the destination—it was always a means to deliver organizational value. DORA metrics tell us how effectively we deliver software, but they don't tell us whether teams are working on what matters most.
+
+Let's explore why **alignment** is the missing metric between engineering execution and business outcomes, how local optimization silently undermines organizational success, and why trust acts as the multiplier that enables alignment to scale.
+
+Drawing from real-world experience leading engineering teams, together with ideas from DORA research, value stream thinking, organizational psychology, and systems thinking, we'll examine practical ways to recognize alignment, measure its signals, and create organizations where technical excellence translates into meaningful business impact.
+
+**Shipping faster only matters when you're moving in the right direction.**
 
 ## Preview
 
@@ -15,12 +22,25 @@ Preview available on [Trust Protocol](https://trustprotocol.zwinnapanda.pl)
 
 ## More stuff
 
-- [The Five Dysfunctions of a Team](https://www.amazon.pl/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)  
-- [Green's Trust Equation](https://www.projectmanagement.com/blog-post/54416/the-trust-equation)  
-- [Project Aristotle](https://www.aristotleperformance.com/post/project-aristotle-google-s-data-driven-insights-on-high-performing-teams)  
-- [The Scrum Guide](https://www.scrum.org/resources/scrum-guide) 
-- [Power of Vulnerability](https://youtu.be/iCvmsMzlF7o?si=s2dgre0vr9qXIqhS) 
-- [Tuckman's Model](https://hr.mit.edu/learning-topics/teams/articles/stages-development)  
+### DevOps & DORA
+
+- [Accelerate](https://www.amazon.pl/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)
+- [DORA Research Program](https://dora.dev/)
+- [The Phoenix Project](https://www.amazon.pl/Phoenix-Project-DevOps-Helping-Business/dp/1942788290)
+- [The DevOps Handbook](https://www.amazon.pl/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1950508404)
+
+### Alignment & Strategy
+
+- [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
+- [Value Stream Mapping](https://en.wikipedia.org/wiki/Value-stream_mapping)
+- [The Five Whys](https://en.wikipedia.org/wiki/Five_whys)
+
+### Trust & Organizational Culture
+
+- [The Five Dysfunctions of a Team](https://www.amazon.pl/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
+- [Charles Green's Trust Equation](https://trustedadvisor.com/trust-equation)
+- [Westrum Organizational Culture Model](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
+- [Project Aristotle](https://rework.withgoogle.com/guides/understanding-team-effectiveness)
 
 ## Setup
 Made using [Slidev](https://github.com/slidevjs/slidev)!

@@ -1393,7 +1393,7 @@ But if your <span class="text-red-400 font-bold">self-orientation is high</span>
 
 <v-click>
 <div class="mt-4 text-lg text-cyan-400">
-In the Alignment Matrix: high self-orientation keeps people stuck in the <strong>x00</strong> states.
+In the Alignment Matrix: high self-orientation keeps people stuck in the <strong>100</strong> state.
 </div>
 </v-click>
 
@@ -1403,13 +1403,6 @@ A brilliant engineer who is CV-driven or empire-building<br/>
 destroys team trust <span class="text-red-400 font-bold">faster</span> than a mediocre one who genuinely cares.
 </div>
 </v-click>
-
----
-layout: section
-transition: slide-up
----
-
-# Closing
 
 ---
 layout: center
@@ -1603,9 +1596,12 @@ class: text-center
   <div class="text-sm text-neutral-500 mb-3">
     Scan to get the slides
   </div>
-
-  <div class="w-48 h-48 bg-gray-200 rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
-    <!-- QR -->
+<div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
+    <img
+      src="./public/missing_metric_qr_code.png"
+      alt="QR code for slides"
+      class="w-full h-full object-contain rounded-md"
+    />
   </div>
 </div>
 
