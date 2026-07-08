@@ -1,4 +1,4 @@
-# The Trust Protocol: Human APIs for High-Performing Teams
+# Beyond DevOps: The Missing Metric
 
 ## Abstract
 
@@ -18,7 +18,7 @@ Drawing from real-world experience leading engineering teams, together with idea
 
 ## Preview
 
-Preview available on [Trust Protocol](https://trustprotocol.zwinnapanda.pl)
+Preview available on [Missing Metric](https://missingmetric.zwinnapanda.pl)
 
 ## More stuff
 
