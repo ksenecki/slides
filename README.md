@@ -18,7 +18,7 @@ Kamil Senecki is an IT professional with roots in embedded systems testing and a
 
 ## Previous talks
 
-- [DevOpsDays Kraków 04.07.2026](https://devopsdays.org/events/2026-krakow/welcome/) - [The Trust Protocol: Human APIs for High-Performing Teams](https://devopsdays.org/events/2026-krakow/program/senecki-kamil)  
+- [DevOpsDays Kraków 04.07.2026](https://www.linkedin.com/company/devopsdays-krak%C3%B3w) - [The Trust Protocol: Human APIs for High-Performing Teams](https://www.youtube.com/live/Pux14O1uqd0?si=tGrKOIAZvIN1SkCj&t=5100)  
 - DepCon 14 - 30.10.2024 ([Deployed](https://deployed.pl/) internal conference) - [Cybersecurity basics](https://youtu.be/NEwdQklALCg)  
 - DepCon 13 - 15.03.2024 ([Deployed](https://deployed.pl/) internal conference) - [SEO for Developers](https://youtu.be/qw4r2TyZI98?si=1jaET6O2B4Mj7Yz0)  
 - DepCon 8 - 21.12.2022 - ([Deployed](https://deployed.pl/) internal conference) - [Scrum Master Sins](https://youtu.be/kkFTX2_Fyxo)  
