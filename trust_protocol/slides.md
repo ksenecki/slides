@@ -31,7 +31,7 @@ layout: center
 class: text-center
 ---
 
-# Have you ever worked in a TEAM?
+# Do you work in a TEAM?
 
 <v-click>
 
