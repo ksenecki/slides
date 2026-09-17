@@ -155,18 +155,25 @@ layout: quote
 class: text-center
 ---
 
-# "When a measure becomes a target, it ceases to be a good measure."
+# Goodhart's Law, 1975
 
+<div class="mt-8 mx-auto max-w-4xl">
 <v-click>
-<div class="mt-4 text-sm text-blue-200"> Goodhart's Law, 1975</div>
-</v-click>
-
-<v-click>
-<div class="mt-8 p-6 bg-yellow-500 bg-opacity-20 rounded-lg inline-block text-xl">
-When metrics become <span class="text-yellow-400 font-bold">targets</span>...<br/>
-teams optimize them, not organizational outcomes.
+<div class="relative p-4 rounded-2xl border border-yellow-300 border-opacity-30 bg-yellow-500 bg-opacity-10 shadow-xl">
+<div class="text-4xl leading-tight font-serif italic text-yellow-50">
+When a measure becomes a <span class="text-yellow-300 font-bold not-italic">target</span>,<br/>
+it ceases to be a good measure.
+</div>
 </div>
 </v-click>
+
+<v-click>
+<div class="mt-8 text-xl text-slate-200">
+When metrics become <span class="text-yellow-300 font-bold">targets</span>,<br/>
+teams optimize them — not organizational outcomes.
+</div>
+</v-click>
+</div>
 
 ---
 layout: default
@@ -792,68 +799,6 @@ Because nobody told them.
 </v-click>
 
 ---
-layout: default
----
-
-# Value Stream Mapping
-
-<v-click>
-
-<div class="flex items-center justify-between gap-2 mt-10 text-center text-sm">
-
-<div class="flex-1 p-3 rounded-lg bg-blue-500/15 border border-blue-400/30">
-💡<br/>
-<b>Idea</b>
-</div>
-
-<div class="text-3xl">→</div>
-
-<div class="flex-1 p-3 rounded-lg bg-blue-500/15 border border-blue-400/30">
-🛠<br/>
-<b>Development</b>
-</div>
-
-<div class="text-3xl">→</div>
-
-<div class="flex-1 p-3 rounded-lg bg-blue-500/15 border border-blue-400/30">
-🚀<br/>
-<b>Deployment</b>
-</div>
-
-<div class="text-3xl">→</div>
-
-<div class="flex-1 p-3 rounded-lg bg-yellow-500/15 border border-yellow-400/30">
-👤<br/>
-<b>Customer Use</b>
-</div>
-
-<div class="text-3xl">→</div>
-
-<div class="flex-1 p-3 rounded-lg bg-green-500/20 border border-green-400/40 font-semibold">
-📈<br/>
-<b>Business Outcome</b>
-</div>
-
-</div>
-
-</v-click>
-
-<v-click>
-
-<div class="mt-10 text-center text-2xl">
-
-Most organizations stop at
-<span class="text-blue-300 font-bold">Deployment.</span>
-
-<div class="mt-2 text-green-400 font-bold text-3xl">
-Value ends at Business Outcome.
-</div>
-
-</div>
-
-</v-click>
-
----
 layout: section
 transition: slide-up
 ---
@@ -1152,259 +1097,6 @@ Without feedback, <span class="text-red-400 font-bold">alignment decays.</span>
 </v-click>
 
 ---
-layout: section
-transition: slide-up
----
-
-# Trust Is the Multiplier
-
----
-layout: center
-class: text-center
----
-
-# Every Transformation Eventually Becomes a People Problem
-
-<v-click>
-<div class="text-2xl mt-6 p-6 bg-blue-500 bg-opacity-20 rounded-lg inline-block">
-Technology scales only as far as <span class="text-cyan-400 font-bold">trust allows</span>.
-</div>
-</v-click>
-
----
-layout: two-cols
----
-
-# Without Trust 🚫
-
-<v-clicks>
-
--  🤐 People hide information
--  🏃 Teams avoid responsibility
--  🧱 Groups protect territory
--  🎯 Everyone optimizes locally
--  🙈 Failures stay hidden
--  ✅ Code reviews become rubber stamps
-
-</v-clicks>
-
-::right::
-
-# With Trust ✅
-
-<v-clicks>
-
--  💬 Information flows freely
--  🔎 Mistakes surface early
--  🤝 Teams collaborate freely
--  ⚡ Conflicts become productive
--  🧠 Organizations learn faster
--  🧾 Post-mortems are honest
-
-</v-clicks>
-
----
-layout: default
----
-
-# Lencioni's Dysfunctions
-
-<div class="flex justify-center mt-2">
-<div class="w-full max-w-xl flex flex-col-reverse leading-tight">
-
-<v-click>
-<div class="bg-red-500/40 py-3 px-4 text-center rounded-b-lg">
-  <div class="font-bold">Absence of Trust</div>
-  <div class="text-xs">
-    Hidden failures • blame culture
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-yellow-500/30 py-2 px-4 text-center mx-8">
-  <div class="font-bold">Fear of Conflict</div>
-  <div class="text-xs">
-    Rubber-stamp code reviews
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-green-500/30 py-2 px-4 text-center mx-16">
-  <div class="font-bold">Lack of Commitment</div>
-  <div class="text-xs">
-    "We agreed, but..."
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-blue-500/30 py-2 px-4 text-center mx-24">
-  <div class="font-bold">Avoidance of Accountability</div>
-  <div class="text-xs">
-    Broken builds nobody fixes
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="bg-purple-500/30 py-2 px-4 text-center rounded-t-lg mx-32">
-  <div class="font-bold">Inattention to Results</div>
-  <div class="text-xs">
-    Velocity over outcomes
-  </div>
-</div>
-</v-click>
-
-</div>
-</div>
-
-<v-click>
-
-<div class="text-center mt-4 text-lg">
-
-Many engineering problems are
-
-<span class="text-red-400 font-bold">
-organizational trust problems
-</span>
-
-in disguise.
-
-</div>
-
-</v-click>
-
----
-layout: default
----
-
-# Westrum's Culture Model
-
-<div class="grid grid-cols-3 gap-4 mt-8">
-
-<v-click>
-<div class="p-4 bg-red-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-xl text-red-400 mb-3">Pathological</div>
-  <div class="text-sm space-y-1">
-    <div>🤐 Information hidden</div>
-    <div>👉 Failure = blame</div>
-    <div>🏹 Messengers shot</div>
-    <div>🏃 Responsibility avoided</div>
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="p-4 bg-yellow-500 bg-opacity-20 rounded-lg">
-  <div class="font-bold text-xl text-yellow-400 mb-3">Bureaucratic</div>
-  <div class="text-sm space-y-1">
-    <div>📋 Rule-bound processes</div>
-    <div>😐 Failure = tolerated</div>
-    <div>🧱 Siloed information</div>
-    <div>📦 Narrow responsibilities</div>
-  </div>
-</div>
-</v-click>
-
-<v-click>
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg border border-green-500">
-  <div class="font-bold text-xl text-green-400 mb-3">Generative</div>
-  <div class="text-sm space-y-1">
-    <div>💬 Information flows freely</div>
-    <div>🧠 Failure = learning</div>
-    <div>🤝 Collective responsibility</div>
-    <div>🔄 Continuous improvement</div>
-  </div>
-</div>
-</v-click>
-
-</div>
-
-<v-click>
-<div class="mt-6 p-4 bg-green-500 bg-opacity-10 rounded-lg text-center text-lg">
-Generative cultures <span class="text-green-400 font-bold">consistently outperform others</span> on every DORA metric.
-</div>
-</v-click>
-
----
-layout: center
----
-
-# Charles Green's Trust Equation
-
-<v-click>
-<div class="text-center mt-8 p-8 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl">
-<div class="text-4xl font-mono">
-Trust = <span class="text-green-400">(C + R + I)</span> / <span class="text-red-400">S</span>
-</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="grid grid-cols-4 gap-4 mt-8 text-center">
-
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
-  <div class="text-2xl mb-2">C</div>
-  <div class="font-bold">Credibility</div>
-  <div class="text-xs text-green-200 mt-1">"Do I believe what you say?"</div>
-</div>
-
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
-  <div class="text-2xl mb-2">R</div>
-  <div class="font-bold">Reliability</div>
-  <div class="text-xs text-green-200 mt-1">"Can I count on you?"</div>
-</div>
-
-<div class="p-4 bg-green-500 bg-opacity-20 rounded-lg">
-  <div class="text-2xl mb-2">I</div>
-  <div class="font-bold">Intimacy</div>
-  <div class="text-xs text-green-200 mt-1">"Do I feel safe with you?"</div>
-</div>
-
-<div class="p-4 bg-red-500 bg-opacity-20 rounded-lg">
-  <div class="text-2xl mb-2">S</div>
-  <div class="font-bold">Self-Orientation</div>
-  <div class="text-xs text-red-200 mt-1">"Whose agenda comes first?"</div>
-</div>
-
-</div>
-</v-click>
-
----
-layout: center
-class: text-center
----
-
-# The Denominator Is Dangerous!
-
-<v-click>
-<div class="text-xl mt-8 max-w-2xl mx-auto">
-You can have <span class="text-green-400">high credibility</span>, <span class="text-green-400">high reliability</span>, <span class="text-green-400">high intimacy</span>...
-</div>
-</v-click>
-
-<v-click>
-<div class="text-2xl mt-6 p-6 bg-red-500 bg-opacity-20 rounded-lg">
-But if your <span class="text-red-400 font-bold">self-orientation is high</span>, trust <span class="text-red-400">collapses</span>.
-</div>
-</v-click>
-
-<v-click>
-<div class="mt-4 text-lg text-cyan-400">
-In the Alignment Matrix: high self-orientation keeps people stuck in the <strong>100</strong> state.
-</div>
-</v-click>
-
-<v-click>
-<div class="mt-4 text-xl text-white">
-A brilliant engineer who is CV-driven or empire-building<br/>
-destroys team trust <span class="text-red-400 font-bold">faster</span> than a mediocre one who genuinely cares.
-</div>
-</v-click>
-
----
 layout: center
 class: text-center
 ---
@@ -1476,7 +1168,6 @@ class: text-center
 <v-click>
 <div class="mt-8 p-8 bg-blue-500 bg-opacity-10 rounded-xl font-mono text-xl text-left inline-block">
 <div class="mb-2"><span class="text-blue-400 font-bold">DevOps</span>    = 🌊 The flow mechanism</div>
-<div class="mb-2"><span class="text-purple-400 font-bold">Trust</span>     = ✖️ The multiplier</div>
 <div class="mb-2"><span class="text-cyan-400 font-bold">Alignment</span> = 🧭 The missing metric</div>
 <div class="mb-2"><span class="text-green-400 font-bold">Value</span>     = 🎯 The destination</div>
 </div>
@@ -1486,12 +1177,6 @@ class: text-center
 <div class="mt-6 text-xl text-white">
 DevOps is not the destination.<br/>
 It is one of the ways we get there.
-</div>
-</v-click>
-
-<v-click>
-<div class="mt-4 text-2xl text-cyan-400 font-bold">
-Trust is the multiplier. Alignment is the missing metric.
 </div>
 </v-click>
 
