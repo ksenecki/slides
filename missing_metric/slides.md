@@ -13,9 +13,9 @@ transition: slide-left
 mdc: true
 ---
 
-# Beyond DevOps
+<h1 class="text-6xl font-bold" style="text-shadow: 4px 4px 0 #000;">Beyond DevOps</h1>
 
-<div class="pt-4 text-xl text-blue-200">The Missing Metric</div>
+<div class="pt-4 text-4xl font-bold text-blue-200" style="text-shadow: 4px 4px 0 #000;">The Missing Metric</div>
 
 
 <!--
@@ -1146,8 +1146,8 @@ layout: center
 class: text-center
 ---
 
-<div class="mt-6 p-8 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl max-w-3xl mx-auto">
-The missing metric is <span class="text-cyan-400 font-bold text-2xl">alignment</span>.
+<div class="mt-6 p-8 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl max-w-3xl mx-auto text-2xl">
+The missing metric is <span class="text-cyan-400 font-bold text-4xl">alignment</span>.
 </div>
 
 <v-click>
