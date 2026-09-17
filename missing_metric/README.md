@@ -35,13 +35,6 @@ Preview available on [Missing Metric](https://missingmetric.zwinnapanda.pl)
 - [Value Stream Mapping](https://en.wikipedia.org/wiki/Value-stream_mapping)
 - [The Five Whys](https://en.wikipedia.org/wiki/Five_whys)
 
-### Trust & Organizational Culture
-
-- [The Five Dysfunctions of a Team](https://www.amazon.pl/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
-- [Charles Green's Trust Equation](https://trustedadvisor.com/trust-equation)
-- [Westrum Organizational Culture Model](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)
-- [Project Aristotle](https://rework.withgoogle.com/guides/understanding-team-effectiveness)
-
 ## Setup
 Made using [Slidev](https://github.com/slidevjs/slidev)!
 
