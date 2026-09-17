@@ -15,7 +15,7 @@ mdc: true
 
 # Beyond DevOps
 
-<div class="pt-4 text-xl text-blue-200">The Missing Metric: Alignment</div>
+<div class="pt-4 text-xl text-blue-200">The Missing Metric</div>
 
 
 <!--
