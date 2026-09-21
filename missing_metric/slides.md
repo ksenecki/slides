@@ -1,5 +1,6 @@
 ---
-theme: dracula
+theme: seriph
+colorSchema: both
 background: /earth.jpg
 title: Beyond DevOps - The Missing Metric
 info: |
@@ -15,7 +16,7 @@ mdc: true
 
 <h1 class="text-6xl font-bold" style="text-shadow: 4px 4px 0 #000;">Beyond DevOps</h1>
 
-<div class="pt-4 text-4xl font-bold text-blue-200" style="text-shadow: 4px 4px 0 #000;">The Missing Metric</div>
+<div class="pt-4 text-4xl font-bold text-blue-800 dark:text-blue-200" style="text-shadow: 4px 4px 0 #000;">The Missing Metric</div>
 
 
 <!--
@@ -31,12 +32,12 @@ class: text-center
 # Have you heard of DORA metrics?
 
 <v-click>
-<div class="text-xl mt-8">How many of you currently <span class="text-yellow-300 font-bold">use</span> them?</div>
+<div class="text-xl mt-8">How many of you currently <span class="text-yellow-800 dark:text-yellow-300 font-bold">use</span> them?</div>
 </v-click>
 
 <v-click>
 <div class="mt-8 p-6 bg-red-500 bg-opacity-20 rounded-lg text-2xl inline-block">
-How many of you can name the <span class="text-red-300 font-bold">business outcome</span> they improved last quarter?
+How many of you can name the <span class="text-red-800 dark:text-red-300 font-bold">business outcome</span> they improved last quarter?
 </div>
 </v-click>
 
@@ -88,7 +89,7 @@ Organizations ask us to:
 
 <v-click>
 <div class="mt-4 p-4 bg-red-500 bg-opacity-20 rounded-lg">
-Those are <span class="text-red-400 font-bold">tasks</span>. They describe work, not purpose or direction.
+Those are <span class="text-red-700 dark:text-red-400 font-bold">tasks</span>. They describe work, not direction we take.
 </div>
 </v-click>
 
@@ -97,11 +98,11 @@ Those are <span class="text-red-400 font-bold">tasks</span>. They describe work,
 <v-click>
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg">
 
-### Every decision should answer:
+### No one explains us:
 
 <div class="text-2xl mt-4 text-cyan-500 font-bold">Who benefits — and how?</div>
 
-<div class="mt-4 text-2xl text-blue-500">If there is no clear benefit, there is no value — only <span class="text-yellow-500">activity</span>.</div>
+<div class="mt-4 text-2xl text-blue-500">If there is no clear benefit, we do not understand the purpose.</div>
 
 </div>
 </v-click>
@@ -123,7 +124,7 @@ class: text-center
 
 <v-click>
 <div class="p-6 bg-orange-500 bg-opacity-20 rounded-lg">
-<div class="font-bold mb-3 text-orange-300">We obsessively measure activity:</div>
+<div class="font-bold mb-3 text-orange-800 dark:text-orange-300">We obsessively measure activity:</div>
 
 - Commits and deployments
 - Velocity and story points
@@ -134,7 +135,7 @@ class: text-center
 
 <v-click>
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg">
-<div class="font-bold mb-3 text-green-300">Almost nobody measures:</div>
+<div class="font-bold mb-3 text-green-800 dark:text-green-300">Almost nobody measures:</div>
 
 - Customer outcomes and value
 - Revenue, cost, and risk impact
@@ -155,16 +156,16 @@ class: text-center
 <div class="mt-8 mx-auto max-w-4xl">
 <v-click>
 <div class="relative p-4 rounded-2xl border border-yellow-300 border-opacity-30 bg-yellow-500 bg-opacity-10 shadow-xl">
-<div class="text-4xl leading-tight font-serif italic text-yellow-50">
-When a measure becomes a <span class="text-yellow-300 font-bold not-italic">target</span>,<br/>
+<div class="text-4xl leading-tight font-serif italic text-slate-900 dark:text-yellow-50">
+When a measure becomes a <span class="text-yellow-800 dark:text-yellow-300 font-bold not-italic">target</span>,<br/>
 it ceases to be a good measure.
 </div>
 </div>
 </v-click>
 
 <v-click>
-<div class="mt-8 text-xl text-slate-200">
-When metrics become <span class="text-yellow-300 font-bold">targets</span>,<br/>
+<div class="mt-8 text-xl text-slate-700 dark:text-slate-200">
+When metrics become <span class="text-yellow-800 dark:text-yellow-300 font-bold">targets</span>,<br/>
 teams optimize them — not organizational outcomes.
 </div>
 </v-click>
@@ -311,7 +312,7 @@ layout: default
 <div class="p-6 bg-blue-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-4xl mb-3">🌊</div>
   <div class="font-bold text-xl mb-2">Flow</div>
-  <div class="text-sm text-blue-200">Accelerate work from Dev through Ops to customer value</div>
+  <div class="text-sm text-blue-800 dark:text-blue-200">Accelerate work from Dev through Ops to customer value</div>
 </div>
 </v-click>
 
@@ -319,7 +320,7 @@ layout: default
 <div class="p-6 bg-green-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-4xl mb-3">🔁</div>
   <div class="font-bold text-xl mb-2">Feedback</div>
-  <div class="text-sm text-green-200">Create fast, short feedback loops at every stage</div>
+  <div class="text-sm text-green-800 dark:text-green-200">Create fast, short feedback loops at every stage</div>
 </div>
 </v-click>
 
@@ -327,7 +328,7 @@ layout: default
 <div class="p-6 bg-purple-500 bg-opacity-30 rounded-lg text-center">
   <div class="text-4xl mb-3">🧪</div>
   <div class="font-bold text-xl mb-2">Continuous Learning</div>
-  <div class="text-sm text-purple-200">Reduce risk through experimentation and learning</div>
+  <div class="text-sm text-purple-800 dark:text-purple-200">Reduce risk through experimentation and learning</div>
 </div>
 </v-click>
 
@@ -367,8 +368,8 @@ Deploy frequency → Lead time → MTTR → Change failure rate
 
 <v-click>
 <div class="mt-6 p-4 bg-red-500 bg-opacity-20 rounded-lg text-xl">
-Software delivery performance is <span class="text-red-400 font-bold">not</span> the end goal.<br/>
-<span class="text-green-300 font-bold text-2xl">Organizational performance is.</span>
+Software delivery performance is <span class="text-red-700 dark:text-red-400 font-bold">not</span> the end goal.<br/>
+<span class="text-green-700 dark:text-green-300 font-bold text-2xl">Organizational performance is.</span>
 </div>
 </v-click>
 
@@ -386,12 +387,12 @@ class: text-center
 # People Say "We Deliver Value"
 
 <v-click>
-<div class="text-3xl mt-8 text-blue-200">Nobody defines it.</div>
+<div class="text-3xl mt-8 text-blue-800 dark:text-blue-200">Nobody defines it.</div>
 </v-click>
 
 <v-click>
 <div class="mt-8 p-6 bg-yellow-500 bg-opacity-20 rounded-lg inline-block text-xl">
-Value is <span class="text-yellow-400 font-bold">contextual</span>.<br/>
+Value is <span class="text-yellow-700 dark:text-yellow-400 font-bold">contextual</span>.<br/>
 Different stakeholders care about different outcomes.
 </div>
 </v-click>
@@ -406,43 +407,43 @@ layout: default
 
 <v-click>
 <div class="p-4 bg-blue-500 bg-opacity-20 rounded-lg h-full flex flex-col">
-<div class="font-bold text-blue-300">👤 Customer</div>
-<div class="text-sm mt-2 text-blue-100">"I can solve my problem."</div>
+<div class="font-bold text-blue-800 dark:text-blue-300">👤 Customer</div>
+<div class="text-sm mt-2 text-blue-900 dark:text-blue-100">"I can solve my problem."</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="p-4 bg-purple-500 bg-opacity-20 rounded-lg h-full flex flex-col">
-<div class="font-bold text-purple-300">📈 CEO</div>
-<div class="text-sm mt-2 text-purple-100">"We increased revenue."</div>
+<div class="font-bold text-purple-800 dark:text-purple-300">📈 CEO</div>
+<div class="text-sm mt-2 text-purple-900 dark:text-purple-100">"We increased revenue."</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="p-4 bg-green-500 bg-opacity-20 rounded-lg h-full flex flex-col">
-<div class="font-bold text-green-300">🎧 Support</div>
-<div class="text-sm mt-2 text-green-100">"Customers stopped calling."</div>
+<div class="font-bold text-green-800 dark:text-green-300">🎧 Support</div>
+<div class="text-sm mt-2 text-green-900 dark:text-green-100">"Customers stopped calling."</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="p-4 bg-yellow-500 bg-opacity-20 rounded-lg h-full flex flex-col">
-<div class="font-bold text-yellow-300">🛠 Engineer</div>
-<div class="text-sm mt-2 text-yellow-100">"We removed technical debt."</div>
+<div class="font-bold text-yellow-800 dark:text-yellow-300">🛠 Engineer</div>
+<div class="text-sm mt-2 text-yellow-900 dark:text-yellow-100">"We removed technical debt."</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="p-4 bg-red-500 bg-opacity-20 rounded-lg h-full flex flex-col">
-<div class="font-bold text-red-300">🔐 Security</div>
-<div class="text-sm mt-2 text-red-100">"We reduced risk."</div>
+<div class="font-bold text-red-800 dark:text-red-300">🔐 Security</div>
+<div class="text-sm mt-2 text-red-900 dark:text-red-100">"We reduced risk."</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="p-4 bg-orange-500 bg-opacity-20 rounded-lg h-full flex flex-col">
-<div class="font-bold text-orange-300">💰 Finance</div>
-<div class="text-sm mt-2 text-orange-100">"We lowered operational cost."</div>
+<div class="font-bold text-orange-800 dark:text-orange-300">💰 Finance</div>
+<div class="text-sm mt-2 text-orange-900 dark:text-orange-100">"We lowered operational cost."</div>
 </div>
 </v-click>
 
@@ -450,7 +451,7 @@ layout: default
 
 <v-click>
 <div class="mt-6 p-4 bg-white bg-opacity-10 rounded-lg text-center text-xl">
-Nobody is wrong. The challenge is <span class="text-cyan-400 font-bold">agreeing which value matters most now</span> — and aligning around it.
+Nobody is wrong. The challenge is <span class="text-cyan-700 dark:text-cyan-400 font-bold">agreeing which value matters most now</span> — and aligning around it.
 </div>
 </v-click>
 
@@ -500,7 +501,7 @@ layout: default
 <div>Security: <em>"Let's add approvals."</em></div>
 </div>
 
-<div class="mt-4 text-lg text-red-300 font-bold">
+<div class="mt-4 text-lg text-red-800 dark:text-red-300 font-bold">
 Nobody asks: <em>what problem are we actually solving?</em>
 </div>
 
@@ -527,7 +528,7 @@ layout: default
 <v-click>
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-3">🧑</div>
-  <div class="font-bold text-xl text-blue-300 mb-3">Me</div>
+  <div class="font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">Me</div>
   <div class="text-sm text-left space-y-1">
     <div>📚 Career growth</div>
     <div>🧠 Learning</div>
@@ -540,7 +541,7 @@ layout: default
 <v-click>
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-3">👥</div>
-  <div class="font-bold text-xl text-green-300 mb-3">Team</div>
+  <div class="font-bold text-xl text-green-800 dark:text-green-300 mb-3">Team</div>
   <div class="text-sm text-left space-y-1">
     <div>🤝 Helping teammates</div>
     <div>🚚 Local delivery</div>
@@ -553,7 +554,7 @@ layout: default
 <v-click>
 <div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-3">🏢</div>
-  <div class="font-bold text-xl text-purple-300 mb-3">Organization</div>
+  <div class="font-bold text-xl text-purple-800 dark:text-purple-300 mb-3">Organization</div>
   <div class="text-sm text-left space-y-1">
     <div>🎯 Business goals</div>
     <div>🧭 Strategy & mission</div>
@@ -566,7 +567,7 @@ layout: default
 </div>
 
 <v-click>
-<div class="mt-6 text-center text-xl text-blue-200">
+<div class="mt-6 text-center text-xl text-blue-800 dark:text-blue-200">
 Every employee optimizes all three — consciously or not.
 </div>
 </v-click>
@@ -581,49 +582,49 @@ layout: default
 
 <v-click>
 <div class="flex items-center gap-4 p-3 bg-orange-500 bg-opacity-20 rounded-lg">
-  <div class="font-mono text-lg font-bold text-orange-400 w-16">100</div>
+  <div class="font-mono text-lg font-bold text-orange-700 dark:text-orange-400 w-16">100</div>
   <div class="font-bold w-52">Resume-Driven Development</div>
-  <div class="text-gray-300">Personal growth at the expense of team and organization</div>
+  <div class="text-gray-700 dark:text-gray-300">Personal growth at the expense of team and organization</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="flex items-center gap-4 p-3 bg-blue-500 bg-opacity-20 rounded-lg">
-  <div class="font-mono text-lg font-bold text-blue-400 w-16">010</div>
+  <div class="font-mono text-lg font-bold text-blue-700 dark:text-blue-400 w-16">010</div>
   <div class="font-bold w-52">Team Hero</div>
-  <div class="text-gray-300">Great teammate, but low awareness of wider organizational goals</div>
+  <div class="text-gray-700 dark:text-gray-300">Great teammate, but low awareness of wider organizational goals</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="flex items-center gap-4 p-3 bg-red-500 bg-opacity-30 rounded-lg border border-red-500">
-  <div class="font-mono text-lg font-bold text-red-400 w-16">110</div>
+  <div class="font-mono text-lg font-bold text-red-700 dark:text-red-400 w-16">110</div>
   <div class="font-bold w-52">Engineering Silo</div>
-  <div class="text-gray-300"><strong>Most common trap:</strong> local optimization without organizational impact</div>
+  <div class="text-gray-700 dark:text-gray-300"><strong>Most common trap:</strong> local optimization without organizational impact</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="flex items-center gap-4 p-3 bg-yellow-500 bg-opacity-20 rounded-lg">
-  <div class="font-mono text-lg font-bold text-yellow-400 w-16">001</div>
+  <div class="font-mono text-lg font-bold text-yellow-700 dark:text-yellow-400 w-16">001</div>
   <div class="font-bold w-52">Lone Corporate Soldier</div>
-  <div class="text-gray-300">Loyal to the organization, disconnected from the team. Risk: burnout</div>
+  <div class="text-gray-700 dark:text-gray-300">Loyal to the organization, disconnected from the team. Risk: burnout</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="flex items-center gap-4 p-3 bg-green-500 bg-opacity-20 rounded-lg">
-  <div class="font-mono text-lg font-bold text-green-400 w-16">011</div>
+  <div class="font-mono text-lg font-bold text-green-700 dark:text-green-400 w-16">011</div>
   <div class="font-bold w-52">Aligned Realist</div>
-  <div class="text-gray-300">Healthy sustainable state: team and organization aligned</div>
+  <div class="text-gray-700 dark:text-gray-300">Semi-sustainable state: team and organization aligned</div>
 </div>
 </v-click>
 
 <v-click>
 <div class="flex items-center gap-4 p-3 bg-cyan-500 bg-opacity-20 rounded-lg border border-cyan-500">
-  <div class="font-mono text-lg font-bold text-cyan-400 w-16">111</div>
+  <div class="font-mono text-lg font-bold text-cyan-700 dark:text-cyan-400 w-16">111</div>
   <div class="font-bold w-52">Ideal State</div>
-  <div class="text-gray-300">Full alignment: personal growth, team health, organizational success</div>
+  <div class="text-gray-700 dark:text-gray-300">Full, healthy alignment: personal growth, team health, organizational success</div>
 </div>
 </v-click>
 
@@ -640,20 +641,20 @@ class: text-center
 
 <v-click>
 <div class="text-3xl font-mono mt-4 p-4 bg-red-500 bg-opacity-20 rounded-lg inline-block">
-<span class="text-white">Me </span><span class="text-green-400">✓</span>
-<span class="text-white ml-6">Team </span><span class="text-green-400">✓</span>
-<span class="text-white ml-6">Org </span><span class="text-red-400">✗</span>
+<span class="text-slate-900 dark:text-white">Me </span><span class="text-green-700 dark:text-green-400">✓</span>
+<span class="text-slate-900 dark:text-white ml-6">Team </span><span class="text-green-700 dark:text-green-400">✓</span>
+<span class="text-slate-900 dark:text-white ml-6">Org </span><span class="text-red-700 dark:text-red-400">✗</span>
 </div>
 </v-click>
 
 <v-click>
 <div class="mt-6 text-2xl">
-I succeed. My team succeeds. <span class="text-red-400 font-bold">The organization doesn't.</span>
+I succeed. My team succeeds. <span class="text-red-700 dark:text-red-400 font-bold">The organization doesn't.</span>
 </div>
 </v-click>
 
 <v-click>
-<div class="mt-4 text-lg text-blue-200">
+<div class="mt-4 text-lg text-blue-800 dark:text-blue-200">
 <em>"I implemented Kubernetes because I wanted the experience."</em><br/>
 <em>"Our team has perfect velocity. Nobody else benefits."</em>
 </div>
@@ -676,9 +677,9 @@ class: text-center
 
 <v-click>
 <div class="text-3xl font-mono mt-4 p-4 bg-cyan-500 bg-opacity-20 rounded-lg inline-block">
-<span class="text-white">Me </span><span class="text-green-400">✓</span>
-<span class="text-white ml-6">Team </span><span class="text-green-400">✓</span>
-<span class="text-white ml-6">Org </span><span class="text-green-400">✓</span>
+<span class="text-slate-900 dark:text-white">Me </span><span class="text-green-700 dark:text-green-400">✓</span>
+<span class="text-slate-900 dark:text-white ml-6">Team </span><span class="text-green-700 dark:text-green-400">✓</span>
+<span class="text-slate-900 dark:text-white ml-6">Org </span><span class="text-green-700 dark:text-green-400">✓</span>
 </div>
 </v-click>
 
@@ -691,7 +692,7 @@ class: text-center
 <v-click>
 <div class="mt-4 p-4 bg-green-500 bg-opacity-20 rounded-lg text-xl">
 Not perfect harmony — but a clear line of sight between growth, teamwork, and outcomes.<br/>
-<span class="text-cyan-400 font-bold">Rare, but worth designing for.</span>
+<span class="text-cyan-700 dark:text-cyan-400 font-bold">Rare, but worth designing for.</span>
 </div>
 </v-click>
 
@@ -727,7 +728,7 @@ layout: default
 
 # Questions Everyone Should Answer
 
-<div class="text-2xl text-orange-300 mb-6">
+<div class="text-2xl text-orange-800 dark:text-orange-300 mb-6">
 You cannot optimize what you don't understand.
 </div>
 
@@ -736,7 +737,7 @@ You cannot optimize what you don't understand.
 <v-click>
 
 <div class="p-4 rounded-lg border border-blue-400/30 bg-blue-500/10">
-<div class="text-sm uppercase tracking-wide text-blue-300 mb-1">Strategy</div>
+<div class="text-sm uppercase tracking-wide text-blue-800 dark:text-blue-300 mb-1">Strategy</div>
 
 **What is our company strategy this year?**
 </div>
@@ -746,7 +747,7 @@ You cannot optimize what you don't understand.
 <v-click>
 
 <div class="p-4 rounded-lg border border-blue-400/30 bg-blue-500/10">
-<div class="text-sm uppercase tracking-wide text-blue-300 mb-1">Success</div>
+<div class="text-sm uppercase tracking-wide text-blue-800 dark:text-blue-300 mb-1">Success</div>
 
 **What does success look like for our team this quarter?**
 </div>
@@ -756,7 +757,7 @@ You cannot optimize what you don't understand.
 <v-click>
 
 <div class="p-4 rounded-lg border border-blue-400/30 bg-blue-500/10">
-<div class="text-sm uppercase tracking-wide text-blue-300 mb-1">Alignment</div>
+<div class="text-sm uppercase tracking-wide text-blue-800 dark:text-blue-300 mb-1">Alignment</div>
 
 **How does my work contribute to that?**
 </div>
@@ -766,7 +767,7 @@ You cannot optimize what you don't understand.
 <v-click>
 
 <div class="p-4 rounded-lg border border-blue-400/30 bg-blue-500/10">
-<div class="text-sm uppercase tracking-wide text-blue-300 mb-1">Customer</div>
+<div class="text-sm uppercase tracking-wide text-blue-800 dark:text-blue-300 mb-1">Customer</div>
 
 **What customer problem am I solving?**
 </div>
@@ -781,11 +782,11 @@ You cannot optimize what you don't understand.
 
 Most people **can't answer these.**
 
-<div class="mt-2 text-lg text-gray-300">
+<div class="mt-2 text-lg text-gray-700 dark:text-gray-300">
 Not because they don't care.
 </div>
 
-<div class="text-red-300 font-semibold text-xl">
+<div class="text-red-800 dark:text-red-300 font-semibold text-xl">
 Because nobody told them.
 </div>
 
@@ -808,15 +809,15 @@ class: text-center
 # We Don't Measure It Directly
 
 <v-click>
-<div class="text-xl mt-8 text-blue-200">
-Just like DORA does not measure "engineering excellence" directly — it measures <span class="text-yellow-400 font-bold">observable signals</span> that predict it.
+<div class="text-xl mt-8 text-blue-800 dark:text-blue-200">
+Just like DORA does not measure "engineering excellence" directly — it measures <span class="text-yellow-700 dark:text-yellow-400 font-bold">observable signals</span> that predict it.
 </div>
 </v-click>
 
 <v-click>
 <div class="mt-8 p-6 bg-blue-500 bg-opacity-20 rounded-lg text-2xl inline-block">
 Alignment works the same way.<br/>
-<span class="text-cyan-400 font-bold">We measure its signals.</span>
+<span class="text-cyan-700 dark:text-cyan-400 font-bold">We measure its signals.</span>
 </div>
 </v-click>
 
@@ -841,17 +842,17 @@ layout: default
 <v-click>
 <div class="mt-6 grid grid-cols-2 gap-4">
 <div class="p-4 bg-red-500 bg-opacity-20 rounded-lg text-center">
-Everyone gives <span class="text-red-400 font-bold">different answers</span><br/>alignment is low
+Everyone gives <span class="text-red-700 dark:text-red-400 font-bold">different answers</span><br/>alignment is low
 </div>
 <div class="p-4 bg-red-600 bg-opacity-30 rounded-lg text-center">
-Nobody can answer<br/>alignment is <span class="text-red-400 font-bold">absent</span>
+Nobody can answer<br/>alignment is <span class="text-red-700 dark:text-red-400 font-bold">absent</span>
 </div>
 </div>
 </v-click>
 
 <v-click>
 <div class="mt-4 p-4 bg-green-500 bg-opacity-20 rounded-lg text-center text-lg">
-This is the <span class="text-green-400 font-bold">fastest alignment diagnostic</span> available. Run it today.
+This is the <span class="text-green-700 dark:text-green-400 font-bold">fastest alignment diagnostic</span> available. Run it today.
 </div>
 </v-click>
 
@@ -861,7 +862,7 @@ layout: default
 
 # Signal 2: Goal Traceability 🔗
 
-<div class="text-xl text-gray-300 mb-6">
+<div class="text-xl text-gray-700 dark:text-gray-300 mb-6">
 Can every ticket be traced back to strategy?
 </div>
 
@@ -869,35 +870,35 @@ Can every ticket be traced back to strategy?
 
 <div class="flex flex-wrap items-center justify-center gap-2 text-center text-sm">
 
-<div class="px-3 py-2 rounded bg-gray-700">
+<div class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700">
 Task
 </div>
 
-<div class="text-2xl text-gray-400">←</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">←</div>
 
-<div class="px-3 py-2 rounded bg-gray-700">
+<div class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700">
 User Story
 </div>
 
-<div class="text-2xl text-gray-400">←</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">←</div>
 
-<div class="px-3 py-2 rounded bg-gray-700">
+<div class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700">
 Epic
 </div>
 
-<div class="text-2xl text-gray-400">←</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">←</div>
 
-<div class="px-3 py-2 rounded bg-gray-700">
+<div class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700">
 Objective
 </div>
 
-<div class="text-2xl text-gray-400">←</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">←</div>
 
-<div class="px-3 py-2 rounded bg-gray-700">
+<div class="px-3 py-2 rounded bg-gray-200 dark:bg-gray-700">
 Business Goal
 </div>
 
-<div class="text-2xl text-gray-400">←</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">←</div>
 
 <div class="px-3 py-2 rounded bg-blue-600 font-semibold">
 Strategy
@@ -913,10 +914,10 @@ Strategy
 
 <div class="text-2xl font-semibold">
 If the chain breaks anywhere,
-<span class="text-yellow-400">alignment breaks there too.</span>
+<span class="text-yellow-700 dark:text-yellow-400">alignment breaks there too.</span>
 </div>
 
-<div class="mt-4 text-lg text-gray-300">
+<div class="mt-4 text-lg text-gray-700 dark:text-gray-300">
 Try this with five random Stories or Tickets your Team is working on right now.
 </div>
 
@@ -943,7 +944,7 @@ After every major initiative, ask in sequence:
 <v-click>
 <div class="mt-4 p-4 bg-red-500 bg-opacity-20 rounded-lg text-center text-lg">
 Most teams stop at question 1.<br/>
-Without questions 4 and 5, there is only <span class="text-red-400 font-bold">delivery</span> — no alignment signal.
+Without questions 4 and 5, there is only <span class="text-red-700 dark:text-red-400 font-bold">delivery</span> — no alignment signal.
 </div>
 </v-click>
 
@@ -960,16 +961,16 @@ Not a satisfaction survey. A quarterly <strong>alignment diagnostic</strong>:
 </v-click>
 
 <v-clicks>
-<div class="p-3 bg-gray-700 rounded-lg mt-2 text-sm"> "I understand the company's strategy."</div>
-<div class="p-3 bg-gray-700 rounded-lg mt-2 text-sm"> "I know how my work contributes to our goals."</div>
-<div class="p-3 bg-gray-700 rounded-lg mt-2 text-sm"> "My team's priorities are consistent with company goals."</div>
-<div class="p-3 bg-gray-700 rounded-lg mt-2 text-sm"> "When priorities change, leadership explains why."</div>
-<div class="p-3 bg-gray-700 rounded-lg mt-2 text-sm"> "I receive feedback about the business impact of my work."</div>
+<div class="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg mt-2 text-sm"> "I understand the company's strategy."</div>
+<div class="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg mt-2 text-sm"> "I know how my work contributes to our goals."</div>
+<div class="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg mt-2 text-sm"> "My team's priorities are consistent with company goals."</div>
+<div class="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg mt-2 text-sm"> "When priorities change, leadership explains why."</div>
+<div class="p-3 bg-gray-200 dark:bg-gray-700 rounded-lg mt-2 text-sm"> "I receive feedback about the business impact of my work."</div>
 </v-clicks>
 
 <v-click>
 <div class="mt-4 p-4 bg-yellow-500 bg-opacity-20 rounded-lg text-center text-lg">
-The score isn't the point. <span class="text-yellow-400 font-bold">The trend is.</span>
+The score isn't the point. <span class="text-yellow-700 dark:text-yellow-400 font-bold">The trend is.</span>
 </div>
 </v-click>
 
@@ -982,16 +983,16 @@ layout: default
 <v-click>
 <div class="text-center mt-2">
 <div class="inline-flex flex-col items-center gap-1 text-sm">
-<div class="p-2 bg-gray-600 rounded w-72 text-center">Upgrade PostgreSQL</div>
-<div class="text-gray-400"> Why?</div>
-<div class="p-2 bg-gray-600 rounded w-72 text-center">Security patches are required</div>
-<div class="text-gray-400"> Why does that matter?</div>
-<div class="p-2 bg-gray-600 rounded w-72 text-center">Reduces operational risk</div>
-<div class="text-gray-400"> Why does that matter?</div>
-<div class="p-2 bg-gray-600 rounded w-72 text-center">Meets compliance requirements</div>
-<div class="text-gray-400"> Why does that matter?</div>
-<div class="p-2 bg-gray-600 rounded w-72 text-center">Enables enterprise customers</div>
-<div class="text-gray-400"> Why does that matter?</div>
+<div class="p-2 bg-gray-200 dark:bg-gray-600 rounded w-72 text-center">Upgrade PostgreSQL</div>
+<div class="text-gray-600 dark:text-gray-400"> Why?</div>
+<div class="p-2 bg-gray-200 dark:bg-gray-600 rounded w-72 text-center">Security patches are required</div>
+<div class="text-gray-600 dark:text-gray-400"> Why does that matter?</div>
+<div class="p-2 bg-gray-200 dark:bg-gray-600 rounded w-72 text-center">Reduces operational risk</div>
+<div class="text-gray-600 dark:text-gray-400"> Why does that matter?</div>
+<div class="p-2 bg-gray-200 dark:bg-gray-600 rounded w-72 text-center">Meets compliance requirements</div>
+<div class="text-gray-600 dark:text-gray-400"> Why does that matter?</div>
+<div class="p-2 bg-gray-200 dark:bg-gray-600 rounded w-72 text-center">Enables enterprise customers</div>
+<div class="text-gray-600 dark:text-gray-400"> Why does that matter?</div>
 <div class="p-2 bg-green-600 rounded w-72 text-center font-bold"> Supports company revenue growth</div>
 </div>
 </div>
@@ -999,7 +1000,7 @@ layout: default
 
 <v-click>
 <div class="mt-4 p-4 bg-red-500 bg-opacity-20 rounded-lg text-center">
-If the chain ends after only one or two "whys," <span class="text-red-400 font-bold">alignment is weak.</span>
+If the chain ends after only one or two "whys," <span class="text-red-700 dark:text-red-400 font-bold">alignment is weak.</span>
 </div>
 </v-click>
 
@@ -1009,7 +1010,7 @@ layout: default
 
 # Signal 6: Feedback Loops 🔄
 
-<div class="text-xl text-gray-300 mb-8">
+<div class="text-xl text-gray-700 dark:text-gray-300 mb-8">
 How quickly do decisions become learning?
 </div>
 
@@ -1021,31 +1022,31 @@ How quickly do decisions become learning?
 🧭<br/><b>Decision</b>
 </div>
 
-<div class="text-2xl text-gray-400">→</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">→</div>
 
 <div class="px-3 py-2 rounded bg-blue-500/15 border border-blue-400/30">
 🛠<br/><b>Implementation</b>
 </div>
 
-<div class="text-2xl text-gray-400">→</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">→</div>
 
 <div class="px-3 py-2 rounded bg-blue-500/15 border border-blue-400/30">
 📦<br/><b>Outcome</b>
 </div>
 
-<div class="text-2xl text-gray-400">→</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">→</div>
 
 <div class="px-3 py-2 rounded bg-yellow-500/15 border border-yellow-400/30">
 💬<br/><b>Feedback</b>
 </div>
 
-<div class="text-2xl text-gray-400">→</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">→</div>
 
 <div class="px-3 py-2 rounded bg-green-500/15 border border-green-400/30">
 🧠<br/><b>Learning</b>
 </div>
 
-<div class="text-2xl text-gray-400">→</div>
+<div class="text-2xl text-gray-600 dark:text-gray-400">→</div>
 
 <div class="px-3 py-2 rounded bg-green-600/20 border border-green-500/40 font-semibold">
 🎯<br/><b>Better Decisions</b>
@@ -1061,10 +1062,10 @@ How quickly do decisions become learning?
 
 <div class="text-2xl">
 How long does a deployment take to generate a
-<span class="text-blue-300 font-semibold">business signal?</span>
+<span class="text-blue-800 dark:text-blue-300 font-semibold">business signal?</span>
 </div>
 
-<div class="mt-4 text-3xl text-red-400 font-bold">
+<div class="mt-4 text-3xl text-red-700 dark:text-red-400 font-bold">
 Months—or never? That's your alignment gap.
 </div>
 
@@ -1080,14 +1081,14 @@ class: text-center
 # Alignment isn't measured by a dashboard.
 
 <v-click>
-<div class="text-xl mt-6 text-white">
+<div class="text-xl mt-6 text-slate-900 dark:text-white">
 It's observed through conversations, decisions, and feedback loops.
 </div>
 </v-click>
 
 <v-click>
 <div class="mt-8 p-6 bg-red-500 bg-opacity-20 rounded-lg text-2xl inline-block">
-Without feedback, <span class="text-red-400 font-bold">alignment decays.</span>
+Without feedback, <span class="text-red-700 dark:text-red-400 font-bold">alignment decays.</span>
 </div>
 </v-click>
 
@@ -1100,27 +1101,27 @@ class: text-center
 
 <v-clicks>
 
-<div class="mt-4 mb-2 py-2 px-4 bg-gray-700 rounded-lg text-lg line-through text-gray-400">
+<div class="mt-4 mb-2 py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
 Deployment Frequency
 </div>
 
-<div class="mb-2 py-2 px-4 bg-gray-700 rounded-lg text-lg line-through text-gray-400">
+<div class="mb-2 py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
 Lead Time for Changes
 </div>
 
-<div class="mb-2 py-2 px-4 bg-gray-700 rounded-lg text-lg line-through text-gray-400">
+<div class="mb-2 py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
 Mean Time To Recovery
 </div>
 
-<div class="mb-2 py-2 px-4 bg-gray-700 rounded-lg text-lg line-through text-gray-400">
+<div class="mb-2 py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
 Story Points or Velocity
 </div>
 
-<div class="mb-2 py-2 px-4 bg-gray-700 rounded-lg text-lg line-through text-gray-400">
+<div class="mb-2 py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
 Platform Engineering maturity
 </div>
 
-<div class="py-2 px-4 bg-gray-700 rounded-lg text-lg line-through text-gray-400">
+<div class="py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
 Kubernetes adoption or AI utilization
 </div>
 
@@ -1128,10 +1129,10 @@ Kubernetes adoption or AI utilization
 
 <v-click>
 
-<div class="mt-5 text-xl text-blue-200">
-Those tell us <span class="text-white font-bold">how</span> we build.<br/>
+<div class="mt-5 text-xl text-blue-800 dark:text-blue-200">
+Those tell us <span class="text-slate-900 dark:text-white font-bold">how</span> we build.<br/>
 They don't tell us
-<span class="text-yellow-400 font-bold">whether we're building what matters.</span>
+<span class="text-yellow-700 dark:text-yellow-400 font-bold">whether we're building what matters.</span>
 </div>
 
 </v-click>
@@ -1142,11 +1143,11 @@ class: text-center
 ---
 
 <div class="mt-6 p-8 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl max-w-3xl mx-auto text-2xl">
-The missing metric is <span class="text-cyan-400 font-bold text-4xl">alignment</span>.
+The missing metric is <span class="text-cyan-700 dark:text-cyan-400 font-bold text-4xl">alignment</span>.
 </div>
 
 <v-click>
-<div class="mt-8 text-xl text-white max-w-2xl mx-auto">
+<div class="mt-8 text-xl text-slate-900 dark:text-white max-w-2xl mx-auto">
 Alignment between engineering and business.<br/>
 Between teams and strategy.<br/>
 Between daily work and organizational goals.
@@ -1162,14 +1163,14 @@ class: text-center
 
 <v-click>
 <div class="mt-8 p-8 bg-blue-500 bg-opacity-10 rounded-xl font-mono text-xl text-left inline-block">
-<div class="mb-2"><span class="text-blue-400 font-bold">DevOps</span>    = 🌊 The flow mechanism</div>
-<div class="mb-2"><span class="text-cyan-400 font-bold">Alignment</span> = 🧭 The missing metric</div>
-<div class="mb-2"><span class="text-green-400 font-bold">Value</span>     = 🎯 The destination</div>
+<div class="mb-2"><span class="text-blue-700 dark:text-blue-400 font-bold">DevOps</span>    = 🌊 The flow mechanism</div>
+<div class="mb-2"><span class="text-cyan-700 dark:text-cyan-400 font-bold">Alignment</span> = 🧭 The missing metric</div>
+<div class="mb-2"><span class="text-green-700 dark:text-green-400 font-bold">Value</span>     = 🎯 The destination</div>
 </div>
 </v-click>
 
 <v-click>
-<div class="mt-6 text-xl text-white">
+<div class="mt-6 text-xl text-slate-900 dark:text-white">
 DevOps is not the destination.<br/>
 It is one of the ways we get there.
 </div>
@@ -1187,10 +1188,10 @@ layout: default
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">📅</div>
   <div class="text-xl font-bold mb-2">This Week</div>
-  <div class="text-sm text-blue-200">
+  <div class="text-sm text-blue-800 dark:text-blue-200">
     Pick any task in your backlog. Ask "Why?" five times. See if you reach a business outcome.
     <br/><br/>
-    <span class="text-blue-300">If you can't, that's your first alignment signal.</span>
+    <span class="text-blue-800 dark:text-blue-300">If you can't, that's your first alignment signal.</span>
   </div>
 </div>
 </v-click>
@@ -1199,10 +1200,10 @@ layout: default
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">🗓️</div>
   <div class="text-xl font-bold mb-2">This Month</div>
-  <div class="text-sm text-green-200">
+  <div class="text-sm text-green-800 dark:text-green-200">
     Run a strategy awareness session. Ask: "What are our three company priorities this quarter?"
     <br/><br/>
-    <span class="text-green-300">The gaps in understanding are the gaps in alignment.</span>
+    <span class="text-green-800 dark:text-green-300">The gaps in understanding are the gaps in alignment.</span>
   </div>
 </div>
 </v-click>
@@ -1211,10 +1212,10 @@ layout: default
 <div class="p-6 bg-purple-500 bg-opacity-20 rounded-lg text-center">
   <div class="text-4xl mb-4">📍</div>
   <div class="text-xl font-bold mb-2">This Quarter</div>
-  <div class="text-sm text-purple-200">
+  <div class="text-sm text-purple-800 dark:text-purple-200">
     Map one value stream from idea to business outcome. Find where visibility breaks.
     <br/><br/>
-    <span class="text-purple-300">That is where your alignment work begins.</span>
+    <span class="text-purple-800 dark:text-purple-300">That is where your alignment work begins.</span>
   </div>
 </div>
 </v-click>
@@ -1236,8 +1237,8 @@ class: text-center
 <div class="p-4 bg-blue-500/20 rounded-lg mb-4 flex items-center gap-4">
   <div class="text-3xl">🌐</div>
   <div>
-    <div class="text-sm text-blue-200">Website</div>
-    <div class="text-xl font-bold text-cyan-400">
+    <div class="text-sm text-blue-800 dark:text-blue-200">Website</div>
+    <div class="text-xl font-bold text-cyan-700 dark:text-cyan-400">
       zwinnapanda.pl
     </div>
   </div>
@@ -1248,8 +1249,8 @@ class: text-center
 <div class="p-4 bg-blue-700/30 rounded-lg mb-4 flex items-center gap-4">
   <div class="text-3xl">💼</div>
   <div>
-    <div class="text-sm text-blue-200">LinkedIn</div>
-    <div class="text-xl font-bold text-blue-400">
+    <div class="text-sm text-blue-800 dark:text-blue-200">LinkedIn</div>
+    <div class="text-xl font-bold text-blue-700 dark:text-blue-400">
       linkedin.com/in/kamilsenecki
     </div>
   </div>
@@ -1260,8 +1261,8 @@ class: text-center
 <div class="p-4 bg-green-500/20 rounded-lg flex items-center gap-4">
   <div class="text-3xl">📊</div>
   <div>
-    <div class="text-sm text-green-200">Slides</div>
-    <div class="text-lg font-bold text-green-400">
+    <div class="text-sm text-green-800 dark:text-green-200">Slides</div>
+    <div class="text-lg font-bold text-green-700 dark:text-green-400">
       missingmetric.zwinnapanda.pl
     </div>
   </div>
@@ -1272,11 +1273,11 @@ class: text-center
 
 <v-click>
 
-<div class="p-8 bg-white rounded-xl">
-  <div class="text-sm text-neutral-500 mb-3">
+<div class="p-8 bg-white dark:bg-slate-900 rounded-xl">
+  <div class="text-sm text-neutral-700 dark:text-slate-300 mb-3">
     Scan to get the slides
   </div>
-<div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400">
+<div class="w-48 h-48 bg-white rounded-lg flex items-center justify-center mx-auto border-4 border-dashed border-gray-400 dark:border-slate-500">
     <img
       src="./public/missing_metric_qr_code.png"
       alt="QR code for slides"
@@ -1289,6 +1290,6 @@ class: text-center
 
 </div>
 
-<div class="mt-8 text-blue-200 text-sm">
+<div class="mt-8 text-blue-800 dark:text-blue-200 text-sm">
 Kamil Senecki • ZwinnaPanda.pl
 </div>
