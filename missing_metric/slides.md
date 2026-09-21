@@ -58,11 +58,6 @@ image: /kamil_photo.png
 
 </v-clicks>
 
-<v-click>
-<div class="mt-6 p-4 bg-blue-500 bg-opacity-20 rounded-lg">
-This talk comes from walking thousands of kilometers and thinking about one question...
-</div>
-</v-click>
 
 ---
 layout: section
