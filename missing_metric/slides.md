@@ -655,8 +655,7 @@ I succeed. My team succeeds. <span class="text-red-700 dark:text-red-400 font-bo
 
 <v-click>
 <div class="mt-4 text-lg text-blue-800 dark:text-blue-200">
-<em>"I implemented Kubernetes because I wanted the experience."</em><br/>
-<em>"Our team has perfect velocity. Nobody else benefits."</em>
+<em>"I improved our deployment process so the team could release more safely and frequently, while building my expertise in automation."</em>
 </div>
 </v-click>
 
