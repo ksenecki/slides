@@ -135,7 +135,7 @@ class: text-center
 
 <v-click>
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg">
-<div class="font-bold mb-3 text-green-800 dark:text-green-300">Almost nobody measures:</div>
+<div class="font-bold mb-3 text-green-800 dark:text-green-300">So little measure:</div>
 
 - Customer outcomes and value
 - Revenue, cost, and risk impact
