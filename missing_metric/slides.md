@@ -1154,28 +1154,6 @@ Between daily work and organizational goals.
 </v-click>
 
 ---
-layout: center
-class: text-center
----
-
-# All The Elements
-
-<v-click>
-<div class="mt-8 p-8 bg-blue-500 bg-opacity-10 rounded-xl font-mono text-xl text-left inline-block">
-<div class="mb-2"><span class="text-blue-700 dark:text-blue-400 font-bold">DevOps</span>    = 🌊 The flow mechanism</div>
-<div class="mb-2"><span class="text-cyan-700 dark:text-cyan-400 font-bold">Alignment</span> = 🧭 The missing metric</div>
-<div class="mb-2"><span class="text-green-700 dark:text-green-400 font-bold">Value</span>     = 🎯 The destination</div>
-</div>
-</v-click>
-
-<v-click>
-<div class="mt-6 text-xl text-slate-900 dark:text-white">
-DevOps is not the destination.<br/>
-It is one of the ways we get there.
-</div>
-</v-click>
-
----
 layout: default
 ---
 
@@ -1220,6 +1198,21 @@ layout: default
 </v-click>
 
 </div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="mx-auto mt-8 max-w-5xl rounded-3xl border border-cyan-400/40 bg-slate-900 px-12 py-14 text-center shadow-2xl">
+  <div class="mb-5 text-3xl font-semibold leading-tight text-white">
+    DevOps is not the destination.
+  </div>
+  <div class="text-[2.5rem] font-extrabold leading-tight text-cyan-300">
+    It is one of the ways we get there.
+  </div>
+</div>
+
 
 ---
 layout: center
