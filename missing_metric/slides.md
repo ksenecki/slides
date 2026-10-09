@@ -128,7 +128,7 @@ class: text-center
 
 - Commits and deployments
 - Velocity and story points
-- Lead time and Mean Time To Recovery
+- Lead time and Deployment Frequency
 
 </div>
 </v-click>
@@ -655,7 +655,7 @@ I succeed. My team succeeds. <span class="text-red-700 dark:text-red-400 font-bo
 
 <v-click>
 <div class="mt-4 text-lg text-blue-800 dark:text-blue-200">
-<em>"I improved our deployment process so the team could release more safely and frequently, while building my expertise in automation."</em>
+<em>“I introduced a shared deployment checklist that helped our team coordinate releases and avoid last-minute confusion, while giving me more experience leading technical improvements.”</em>
 </div>
 </v-click>
 
