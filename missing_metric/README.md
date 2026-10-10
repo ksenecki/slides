@@ -10,7 +10,7 @@ Yet many organizations still struggle to answer a much simpler question:
 
 DevOps was never the destination—it was always a means to deliver organizational value. DORA metrics tell us how effectively we deliver software, but they don't tell us whether teams are working on what matters most.
 
-Let's explore why **alignment** is the missing metric between engineering execution and business outcomes, how local optimization silently undermines organizational success, and why trust acts as the multiplier that enables alignment to scale.
+Let's explore why **alignment** is the missing metric between engineering execution and business outcomes, how local optimization silently undermines organizational success.
 
 Drawing from real-world experience leading engineering teams, together with ideas from DORA research, value stream thinking, organizational psychology, and systems thinking, we'll examine practical ways to recognize alignment, measure its signals, and create organizations where technical excellence translates into meaningful business impact.
 

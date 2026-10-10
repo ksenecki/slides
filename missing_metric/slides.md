@@ -98,7 +98,7 @@ Those are <span class="text-red-700 dark:text-red-400 font-bold">tasks</span>. T
 <v-click>
 <div class="p-6 bg-blue-500 bg-opacity-20 rounded-lg">
 
-### No one explains us:
+### We rarely ask:
 
 <div class="text-2xl mt-4 text-cyan-500 font-bold">Who benefits — and how?</div>
 
@@ -137,9 +137,9 @@ class: text-center
 <div class="p-6 bg-green-500 bg-opacity-20 rounded-lg">
 <div class="font-bold mb-3 text-green-800 dark:text-green-300">So little measure:</div>
 
-- Customer outcomes and value
+- Customer satisfaction and value
 - Revenue, cost, and risk impact
-- Learning, trust, and cooperation
+- Adoption, and retention
 
 </div>
 </v-click>
@@ -336,7 +336,7 @@ layout: default
 
 <v-click>
 <div class="mt-6 p-4 bg-yellow-500 bg-opacity-20 rounded-lg text-center text-xl">
-Technology can <em>enable</em> these principles. It is not the principle itself.
+Technology can <em>enable</em> us, but it is not the principle itself.
 </div>
 </v-click>
 
@@ -387,7 +387,7 @@ class: text-center
 # People Say "We Deliver Value"
 
 <v-click>
-<div class="text-3xl mt-8 text-blue-800 dark:text-blue-200">Nobody defines it.</div>
+<div class="text-3xl mt-8 text-blue-800 dark:text-blue-200">It is rarely defined.</div>
 </v-click>
 
 <v-click>
@@ -472,7 +472,7 @@ layout: default
 
 <div>
 <v-click>
-<div class="text-lg mb-4">Every discipline defaults to what it knows:</div>
+<div class="text-lg mb-4">Everyone defaults to what they knows:</div>
 </v-click>
 
 <v-click>
@@ -497,12 +497,12 @@ layout: default
 <div class="text-sm mt-4 space-y-2">
 <div>Engineer: <em>"Let's automate."</em></div>
 <div>Leader: <em>"Let's restructure."</em></div>
-<div>Manager: <em>"Let's create a meeting."</em></div>
-<div>Security: <em>"Let's add approvals."</em></div>
+<div>Manager: <em>"Let's have a meeting."</em></div>
+<div>Security: <em>"Let's add rules and approvals."</em></div>
 </div>
 
 <div class="mt-4 text-lg text-red-800 dark:text-red-300 font-bold">
-Nobody asks: <em>what problem are we actually solving?</em>
+So little would ask: <em>what problem are we actually solving?</em>
 </div>
 
 </div>
@@ -691,7 +691,7 @@ class: text-center
 <v-click>
 <div class="mt-4 p-4 bg-green-500 bg-opacity-20 rounded-lg text-xl">
 Not perfect harmony — but a clear line of sight between growth, teamwork, and outcomes.<br/>
-<span class="text-cyan-700 dark:text-cyan-400 font-bold">Rare, but worth designing for.</span>
+<span class="text-cyan-700 dark:text-cyan-400 font-bold">Rare, but worth working for.</span>
 </div>
 </v-click>
 
@@ -1116,12 +1116,8 @@ Mean Time To Recovery
 Story Points or Velocity
 </div>
 
-<div class="mb-2 py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
-Platform Engineering maturity
-</div>
-
 <div class="py-2 px-4 bg-gray-200 dark:bg-gray-700 rounded-lg text-lg line-through text-gray-600 dark:text-gray-400">
-Kubernetes adoption or AI utilization
+AI adoption
 </div>
 
 </v-clicks>
@@ -1166,7 +1162,7 @@ layout: default
   <div class="text-4xl mb-4">📅</div>
   <div class="text-xl font-bold mb-2">This Week</div>
   <div class="text-sm text-blue-800 dark:text-blue-200">
-    Pick any task in your backlog. Ask "Why?" five times. See if you reach a business outcome.
+    Pick any task in your backlog. Ask <strong>"Why?"</strong> five times. See if you reach a business outcome.
     <br/><br/>
     <span class="text-blue-800 dark:text-blue-300">If you can't, that's your first alignment signal.</span>
   </div>
@@ -1178,7 +1174,7 @@ layout: default
   <div class="text-4xl mb-4">🗓️</div>
   <div class="text-xl font-bold mb-2">This Month</div>
   <div class="text-sm text-green-800 dark:text-green-200">
-    Run a strategy awareness session. Ask: "What are our three company priorities this quarter?"
+    Ask your team: "What are our three company priorities this quarter?"
     <br/><br/>
     <span class="text-green-800 dark:text-green-300">The gaps in understanding are the gaps in alignment.</span>
   </div>
@@ -1213,6 +1209,17 @@ class: text-center
   </div>
 </div>
 
+---
+layout: center
+class: text-center
+transition: fade
+---
+
+<div class="mx-auto max-w-5xl rounded-3xl border border-cyan-400/40 bg-slate-900 px-12 py-14 text-center shadow-2xl">
+  <div class="text-4xl font-semibold leading-tight text-white">
+    Shipping faster only matters when you're moving in the <span class="text-cyan-300 font-extrabold">right direction.</span>
+  </div>
+</div>
 
 ---
 layout: center
