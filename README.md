@@ -16,8 +16,8 @@ Kamil Senecki is an IT professional with roots in embedded systems testing and a
 
 [![Funny Agile Stuff](assets/cupsell_banner.png)](https://zwinnapanda.cupsell.pl/)
 
-## Previous talks
-
+## Previous talks  
+- [DevOpsDays Warsaw 23-24.11.2026](https://devopsdays.pl/) - [Beyond DevOps: The Missing Metric](https://missingmetric.zwinnapanda.pl/1)  
 - Schibsted Dope Day - 16.09.2026 ([Schibsted & Vend Poland](https://schibsted-vend.pl/) internal conference) - The Trust Protocol: Human APIs for High-Performing Teams
 - [DevOpsDays Kraków 04.07.2026](https://www.linkedin.com/company/devopsdays-krak%C3%B3w) - [The Trust Protocol: Human APIs for High-Performing Teams](https://www.youtube.com/watch?v=Kb0V1lL9eEE)  
 - DepCon 14 - 30.10.2024 ([Deployed](https://deployed.pl/) internal conference) - [Cybersecurity basics](https://youtu.be/NEwdQklALCg)  
